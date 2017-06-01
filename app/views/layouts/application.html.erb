@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<title> <%= SetTitle(yield(:title)) %>  </title>
+
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -12,12 +12,6 @@
 <link rel="apple-touch-icon-precomposed" href="http://zurb.com/assets/favicons/apple-touch-icon-precomposed-1e39f99a3f8053e922b9759600140382.png">
 <link rel="icon" href="http://zurb.com/assets/favicons/favicon-d11aa3d99ac6e5ff2539010425c61667.ico" type="image/x-icon"/>
 
-<meta name="keywords" content="Diseño estrategia, Interaccion,Educacion, GalTec, Diseño"/>
-<meta name="description" content="ZURB, Creamos experiencias para los usuarios finales. Proveemos Marketing empresarial , Diseño y soluciones.  ,Diseño web, ilustraciones ,Diseño de software, Iconos y trabajo multimedia."/>
-<meta name="author" content="GalTec, srl. Galtec Pro Galtec-Pro.com"/>
-<meta name="copyright" content="GalTec, srl. Copyright (c) 2017"/>
-
-
 <link href="http://zurb.com/assets/application-38006bb3404c9c80513b391b4f320dbc.css" media="screen" rel="stylesheet" type="text/css"/>
 <link href="http://zurb.com/assets/offcanvas-59e6641931f690c7a96c18edd1547037.css" media="screen" rel="stylesheet" type="text/css"/>
 
@@ -26,6 +20,11 @@
 <script type="text/javascript">
 <html>
   <head>
+    <meta name="keywords" content="Diseño estrategia, Interaccion,Educacion, GalTec, Diseño"/>
+    <meta name="description" content="ZURB, Creamos experiencias para los usuarios finales. Proveemos Marketing empresarial , Diseño y soluciones.  ,Diseño web, ilustraciones ,Diseño de software, Iconos y trabajo multimedia."/>
+    <meta name="author" content="GalTec, srl. Galtec Pro Galtec-Pro.com"/>
+    <meta name="copyright" content="GalTec, srl. Copyright (c) 2017"/>
+    <title> <%= SetTitle(yield(:title)) %>  </title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
