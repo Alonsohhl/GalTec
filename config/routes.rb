@@ -3,10 +3,7 @@ Rails.application.routes.draw do
   get 'static_pages/index'
 
   root 'static_pages#index'
-  get '/nosotros' , to: 'galtec#Nosotros'
-  get '/Contacto' , to: 'galtec#Contacto'
-  get '/Noticias' , to: 'galtec#Noticias'
-  get '/servicios', to: 'galtec#Servicios'
+  
 
   get 'welcome/index'
   get '/about' ,  to:'static_pages#about'

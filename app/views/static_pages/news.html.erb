@@ -1,1 +1,80 @@
 <%provide(:title,"Noticias")%>
+<div class="row">
+  <div class="small-12 medium-7 columns getstarted-intro">
+    <h3 class="left-text light">Let's Work Together</h3>
+    <p class="lead">ZURB has been designing web applications, mobile applications and websites since 1998. You'll be in every step of the design process to push your product to the next level. Let’s work together!
+    </p>
+    <div class="testimonial">
+      <div class="testimonial-quote">I’ve worked with ZURB on a number of projects and am always delighted with the process and the results. The ZURB team is smart, sharp, and gets it done.</div>
+      <div class="testimonial-customer">Constantin Tanno<span><br>Director of Product Development, GrandJunction</span>
+      </div>
+    </div>
+  </div>
+  <div class="small-12 medium-5 columns getstarted-form">
+    <h4 class="text-center">Get Started</h4>
+    <p class="text-center">We can’t wait to hear more about your product!
+      <br>
+      Let us know how to reach you.</p>
+    <form accept-charset="UTF-8" action="/services/getstarted" class="new_studios_lead" id="new_studios_lead" method="post" data-has-zcom-email-handler="1">
+      <div style="margin:0;padding:0;display:inline"><input name="utf8" value="✓" type="hidden"><input name="authenticity_token" value="HnTpmenSV7nX0rKINnpExBPRd8M6ieX0hRbece/zV/Y=" type="hidden"></div>
+      <div class="row">
+        <div class="medium-12 columns">
+          <label>Name
+            <input id="studios_lead_name" name="studios_lead[name]" size="30" type="text">
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-6 columns">
+          <label>Email
+            <input id="studios_lead_email" name="studios_lead[email]" size="30" type="email">
+          </label>
+        </div>
+        <div class="medium-6 columns">
+          <label>Organization
+            <input id="studios_lead_organization" name="studios_lead[organization]" size="30" type="text">
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-12 columns">
+          <label>Project
+            <select id="studios_lead_project_type" name="studios_lead[project_type]">
+              <option value="Web application">Web application</option>
+              <option value="Website design">Website design</option>
+              <option value="Mobile application">Mobile application</option>
+              <option value="Email Templates">Email Templates</option>
+              <option value="Other">Other</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-12 columns">
+          <label>Budget
+            <select id="studios_lead_budget" name="studios_lead[budget]">
+              <option value="< $10,000">&lt; $10,000</option>
+              <option value="$10,000 - $25,000">$10,000 - $25,000</option>
+              <option value="$25,000 - $50,000">$25,000 - $50,000</option>
+              <option value="$50,000 - $100,000">$50,000 - $100,000</option>
+              <option value="$100,000 - 150,000">$100,000 - 150,000</option>
+              <option value="$150,000+">$150,000+</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 columns">
+          <label>Message
+            <textarea cols="40" id="studios_lead_message" name="studios_lead[message]" placeholder="Project Description, Goals, Timeline, Budget, etc." rows="20"></textarea>
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 columns">
+          <button type="submit" id="sLeadSubmit" class="button radius form-submit-button expand" data-zcom-event="studios_lead_submit" data-has-zcom-event-handler="1">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
