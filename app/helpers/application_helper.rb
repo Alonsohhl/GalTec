@@ -9,6 +9,16 @@ module ApplicationHelper
     end
   end
 
+  def Set_Menu_Class(menuclass="")
+    basemenuclass="main-header services home"
+    case menuclass
+      when "Inicio"
+        ["main-header services home","overflow: hidden"]
+      else
+        'class="interior-header green"'
+    end
+  end
+
 
 
 
