@@ -23,8 +23,6 @@
     <meta name="author" content="GalTec, srl. Galtec Pro Galtec-Pro.com"/>
     <meta name="copyright" content="GalTec, srl. Copyright (c) 2017"/>
 
-    <link href="http://zurb.com/assets/application-38006bb3404c9c80513b391b4f320dbc.css" media="screen" rel="stylesheet" type="text/css"/>
-    <link href="http://zurb.com/assets/offcanvas-59e6641931f690c7a96c18edd1547037.css" media="screen" rel="stylesheet" type="text/css"/>
     <meta content="Fixauthenticity_token" name="csrf-param" />
     <meta content="Fixiz5Bwm0pCMf4T9IX4jBYG4qld/TWN/+kV6ygGaEo8SA=" name="csrf-token" />
     <title> <%= SetTitle(yield(:title)) %>  </title>
@@ -38,8 +36,8 @@
 
   <body id="page" class="off-canvas hide-extras zurb-dot-com">
     <section role="main">
-      
-      <%= render(:partial => "static_pages/menu",:locals => {:Tip_Men =>(yield(:title))}) %>
+
+      <%= render(:partial => "static_pages/menu") %>
       <%= yield %>
   </body>
 
