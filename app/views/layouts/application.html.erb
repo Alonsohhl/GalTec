@@ -71,8 +71,10 @@
   <body id="page" class="off-canvas hide-extras zurb-dot-com">
     <section role="main">
       <%= yield %>
+      <%= render(:partial => 'footer')%>
 
       <%#texto animado%>
+
       <script src="http://zurb.com/assets/application-dca5b1328a157cf02ad0db40dd3a76e3.js" type="text/javascript"></script>
       <script type="text/javascript" src="https://intercom.zurb.com/scripts/zcom.js"></script>
       <script>

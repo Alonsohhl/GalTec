@@ -1,0 +1,35 @@
+<div class="zurb-footer-bottom">
+    <div class="row">
+        <div class="medium-4 large-4 push-8 columns">
+            <ul class="home-social">
+                <li>
+                    <a href="https://www.twitter.com/GalTec" class="twitter"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/GalTec" class="facebook"></a>
+                </li>
+                <li>
+                  <%=  link_to("",contact_path,class:"mail")%>
+                </li>
+            </ul>
+        </div>
+        <div class="medium-8 large-8 pull-4 columns">
+            <% link_to("/",class:"zurb-logo regular")%>
+            <ul class="zurb-links">
+                <li>
+                    <%= link_to("Inicio","Inicio_path") %>
+                </li>
+                <li>
+                    <%= link_to("Nosotros",about_path) %>
+                </li>
+                <li>
+                    <%= link_to("Servicios",services_path) %>
+                </li>
+                <li>
+                    <%= link_to("Contacto",contact_path) %>
+                </li>
+            </ul>
+            <p class="copyright">&copy; 1998&ndash;2017 ZURB, Inc. All rights reserved.</p>
+        </div>
+    </div>
+</div>
