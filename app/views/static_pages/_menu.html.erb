@@ -1,6 +1,4 @@
 
-
-
 <% content_for :Menu_Head do %>
 <div class="text-overlay text-center">
   <div class="header-text">
@@ -32,22 +30,43 @@
 <p class="lead scroll">o sigue buscando</p>
 <% end %>
 
-<%= content_tag :div, :class=>("main-header services home" if yield(:title)=='Inicio')|| "global-nav top-bar",style:"overflow: hidden" do -%>
-    	<nav class="global-nav top-bar">
-    	<ul class="title-area">
-    		<li class="name">
-    			<a class="sidebar-button show-for-small" id="sidebarButton" href="#sidebar"><img alt="Menu-icon" src="http://zurb.com/assets/offcanvas/menu-icon-e83086c09404412657dd5591074dbb3c.png"/></a>
-    			<h1><a href="/" title="GalTEC">GalTEC</a></h1>
-    		</li>
-    	</ul>
-    	<section class="top-bar-section">
-    		<ul class="right">
-          <li> <%= link_to "Inicio", '#' %> </li>
-          <li> <%= link_to "Nosotros", about_path %> </li>
-          <li> <%= link_to "Servicios", services_path %> </li>
-          <li> <%= link_to "Contacenos", contact_path %> </li>
+  <% @form_ide=yield(:title)%>
+  <nav class="global-nav top-bar">
+    <ul class="title-area">
+        <li class="name">
+            <a class="sidebar-button show-for-small" id="sidebarButton" href="#sidebar"><img alt="Menu-icon" src="http://zurb.com/assets/offcanvas/menu-icon-e83086c09404412657dd5591074dbb3c.png"/></a>
+            <h1>
+                <a href="/" title="GalTEC">GalTEC</a>
+            </h1>
+        </li>
+    </ul>
+
+    <section class="top-bar-section">
+        <ul class="right">
+            <li>
+                <%= link_to "Inicio", '/' %>
+            </li>
+            <li>
+                <%= link_to "Nosotros", about_path  , :class=>("current" if @form_ide=="Nosotros")%>
+            </li>
+            <li>
+                <%= link_to "Servicios", services_path , :class=>("current" if @form_ide=="Servicios")%>
+            </li>
+            <li>
+                <%= link_to "Contactenos", contact_path  , :class=>("current" if @form_ide=="Contacto")%>
+            </li>
         </ul>
-    	</section>
-    </nav>
-    
-<% end -%>
+    </section>
+  </nav>
+  <%= case @form_ide
+      when 'Inicio'
+        content_for :Menu_Head
+
+      end%>
+
+
+  <script src="http://zurb.com/assets/application-dca5b1328a157cf02ad0db40dd3a76e3.js" type="text/javascript"></script>
+  <script type="text/javascript" src="https://intercom.zurb.com/scripts/zcom.js"></script>
+  <script>
+      $(document).foundation();
+  </script>

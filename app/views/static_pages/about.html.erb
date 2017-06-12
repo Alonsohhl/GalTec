@@ -1,1 +1,7 @@
 <%provide(:title,"Nosotros")%>
+
+  <%= render(:partial => "static_pages/menu") %>
+  <%= case @form_ide
+      when 'Inicio'
+        content_for :Menu
+      end%>

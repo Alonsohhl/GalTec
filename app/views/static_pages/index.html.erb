@@ -1,2 +1,8 @@
 <%provide(:title,"Inicio")%>
-asd
+  <div class="main-header services home" style="overflow: hidden">
+    <%= render(:partial => "static_pages/menu") %>
+    <%= case @form_ide
+        when 'Inicio'
+          content_for :Menu
+        end%>
+  </div>
