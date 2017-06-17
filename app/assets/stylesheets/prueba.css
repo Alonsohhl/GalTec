@@ -1402,7 +1402,7 @@ button, .button {
 }
 
 button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #677003
+    background-color: #BE1E2D;
 }
 
 button:hover, button:focus, .button:hover, .button:focus {
@@ -5696,7 +5696,7 @@ blockquote cite a {
 }
 
 .button {
-    background: #b8d30c;
+    background: #E51E25;
     border: none;
     border-radius: 2px;
     box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.2) inset;
@@ -6095,7 +6095,7 @@ ul.the-zurbians li a {
 }
 
 .zurb-dot-com a:hover {
-    color: #b8d30c
+    color: #E51E25
 }
 
 h2.zurbian-name {
@@ -6987,7 +6987,7 @@ hr.slim {
 }
 
 .interior-header.green {
-    background: #B8D30B
+    background: #E51E25;
 }
 
 .interior-header.about {
@@ -10954,11 +10954,11 @@ blockquote.terracotta-quote {
 }
 
 .header-text .button {
-    background: rgba(184, 211, 12, 0.8)
+    background: rgb(190, 30, 45);
 }
 
 .header-text .button:hover {
-    background: #b8d30c
+    background: #E51E25
 }
 
 .header-text.active {
@@ -14540,7 +14540,7 @@ a.studios-links:focus {
 }
 
 .tavern-top a h2:hover {
-    color: #b8d30c
+    color: #E51E25
 }
 
 .tavern-answers {
