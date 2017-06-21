@@ -9287,7 +9287,7 @@ ul.life li {
 }
 
 .zurb-footer-bottom {
-    background: #3B4951;
+    background: #111;
     padding: 24px 0 10px
 }
 
@@ -9298,7 +9298,7 @@ ul.life li {
 }
 
 .zurb-footer-bottom a.zurb-logo {
-    color: #858585;
+    color: #111;
     font-weight: normal;
     background: url(//zurb.com/assets/icons/footer-icons-32763e7969a45490945d5eddec1bd4ec.png) no-repeat 0 3px;
     padding: 25px 0 0 0;
