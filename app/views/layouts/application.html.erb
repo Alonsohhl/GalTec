@@ -13,12 +13,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="google-site-verification" content="4Z0XnuPtcGIpIlbrslVJBmVEGuzeHYVdzFWCULKi5qU" />
 
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://zurb.com/assets/favicons/apple-touch-icon-144x144-precomposed-1c628530ebb5b89f08f31b24e228515a.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://zurb.com/assets/favicons/apple-touch-icon-114x114-precomposed-22fdf70e868e90fdf38b803f3f04bd55.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://zurb.com/assets/favicons/apple-touch-icon-72x72-precomposed-ab8fcdff598e1144570db24ce7f7ce2a.png">
-    <link rel="apple-touch-icon-precomposed" href="http://zurb.com/assets/favicons/apple-touch-icon-precomposed-1e39f99a3f8053e922b9759600140382.png">
     <%= favicon_link_tag("favicons/galtec.ico") %>
-    
+
     <meta name="keywords" content="arequipa,diseño,paginas,web,freelancer,seo,peru"/>
     <meta name="description" content="GalTEC, Creamos experiencias para los usuarios finales. Proveemos Marketing empresarial , Diseño y soluciones.  ,Diseño web, ilustraciones ,Diseño de software, Iconos y trabajo multimedia."/>
     <meta name="author" content="GalTec, srl. Galtec Pro Galtec-Pro.com"/>
@@ -30,7 +26,6 @@
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <link rel="alternate" type="application/rss+xml" title="ZURBlog" href="/blog" />
 
     <script src="http://zurb.com/assets/custom.modernizr-10edc0fdd7691ce0099730e56622df91.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -75,9 +70,7 @@
       <%= render(:partial => 'footer')%>
 
       <%#texto animado%>
-
-      <script src="http://zurb.com/assets/application-dca5b1328a157cf02ad0db40dd3a76e3.js" type="text/javascript"></script>
-      <script type="text/javascript" src="https://intercom.zurb.com/scripts/zcom.js"></script>
+            <script type="text/javascript" src="https://intercom.zurb.com/scripts/zcom.js"></script>
       <script>
           $(document).foundation();
       </script>
@@ -86,37 +79,3 @@
   </html>
   </section>
   <!--footer -->
-  <section id="sidebar" role="complementary">
-  	<div class="main-menu">
-  		<h6>ZURB.com</h6>
-  		<nav id="sideMenu" role="navigation">
-  			<ul id="sideMainNav" class="nav-bar">
-  				<li><a href="/about">About</a></li>
-  				<li><a href="/services">Services</a></li>
-  				<li><a href="http://zurb.com/blog">Blog</a></li>
-  				<li><a href="http://zurb.com/playground">Sparks</a></li>
-  				<li><a href="http://zurb.com/soapbox">News &amp; Events</a></li>
-  			</ul>
-  		</nav>
-  	</div>
-  	<hr>
-  	<div class="more-goodness">
-  		<h6>More ZURB Goodness</h6>
-  		<nav role="navigation">
-  			<ul id="sideMainNav" class="nav-bar goodness">
-  				<li><a href="http://zurb.com/manifesto">Manifesto</a></li>
-  				<li><a href="http://zurb.com/services/our-work">Our Work</a></li>
-  				<li><a href="http://zurb.com/university/courses">Product Design Courses</a></li>
-  			</ul>
-  		</nav>
-  	</div>
-  	<hr>
-  	<div class="zurb-links">
-  		<ul class="top">
-  			<li class="logo"><a href="http://zurb.com"><img alt="Zurb-logo" src="http://zurb.com/assets/offcanvas/zurb-logo-56a1fbbccc5d2e70881f700c62d67007.png"/></a></li>
-  			<li><a href="/about">About</a></li>
-  			<li><a href="http://zurb.com/blog">Blog</a></li>
-  			<li><a href="/contact">Contact</a></li>
-  		</ul>
-  	</div>
-  </section>

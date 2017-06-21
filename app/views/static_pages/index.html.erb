@@ -1,6 +1,38 @@
 <%provide(:title,"Inicio")%>
   <div class="main-header services home" style="overflow: hidden">
-    <%= render(:partial => "static_pages/menu") %>
+    <nav class="global-nav top-bar">
+      <%= render(:partial => "static_pages/menubar") %>
+    </nav>
+
+      <div class="text-overlay text-center">
+        <div class="header-text">
+          <h1 class="light white-text text-center">Ideas en ACCIÓN</h1>
+          <div class="row">
+            <div class="large-8 columns large-centered text-center">
+              <p class="lead white-text"><strong>Galtec</strong>
+                Desarrollo Inteligente.
+                <br>Nuestro equipo trabaja con pasión y compromiso para ofrecer lo mejor y acompañar el exito de nuestros clientes.</p>
+                <%##%>
+                <a href="https://wistia.sslcs.cdngc.net/deliveries/26a88bbc3265ed2385ee78bd332adebb32648da1/file.mp4" class="green button pause-play-button">Galtec en 30 segundos &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <a class="small button pause-video"></a>
+      </div>
+      <div class="video-wrapper hide-for-small">
+        <video id="studiosBackground">
+          <%##%><source src="https://wistia.sslcs.cdngc.net/deliveries/26a88bbc3265ed2385ee78bd332adebb32648da1/file.mp4" type="video/mp4">
+          <%##%><source src="https://d3uqdvietz3th5.cloudfront.net/studios.webm" type="video/webm">
+          <%##%><source src="https://wistia.sslcs.cdngc.net/deliveries/26a88bbc3265ed2385ee78bd332adebb32648da1/file.ogv" type="video/ogg">
+        </video>
+        <video id="studiosBackgroundLoop" autoplay loop muted>
+          <%##%><source src="https://d3uqdvietz3th5.cloudfront.net/studios-trailer3202014.mp4?03202014" type="video/mp4">
+          <%##%><source src="https://d3uqdvietz3th5.cloudfront.net/studios-trailer3202014.webm?03202014" type="video/webm">
+          <%##%><source src="https://d3uqdvietz3th5.cloudfront.net/studios-trailer3202014.ogv?03202014" type="video/ogg">
+        </video>
+      </div>
+      <p class="lead scroll">o sigue buscando</p>
+
   </div>
   <div class="row">
     <div class="medium-10 large-9 columns medium-centered">
@@ -36,7 +68,7 @@
   <div class="last-section">
     <div class="row bump-25">
         <div class="small-12 columns bump-25">
-            <h3 class="centered-text light">Brindamos Soluciones completas</h3>
+            <h3 class="centered-text light">Brindamos Soluciones Integrales</h3>
             <p class="lead centered-text">Para esto, nos centramos en cuatro pilares:</p>
         </div>
     </div>
@@ -46,7 +78,7 @@
                 <%= image_tag("GalTec/home-capacitacion.jpg", alt:"capacitacion" ,class:"studios home-img")  %>
                 <div class="inset">
                     <h3 class="title light">Diseño</h3>
-                    <span class="normal-text">Trabajaremos juntos para tu proyecto, website o plataforma educativa o SEO.</span>
+                    <span class="normal-text">Trabajamos junto a ti en tu proyecto, website, SEO o plataforma educativa.</span>
 
                 </div>
             </a>
@@ -56,8 +88,7 @@
                 <%= image_tag("GalTec/home-multiplataforma.jpg", alt:"multiplataforma" ,class:"studios home-img")  %>
                 <div class="inset">
                     <h3 class="title light">Multiplataforma</h3>
-                    <span class="normal-text">Trabajamos con la ultima tecnologia Responsive, para que tu aplicacion sea visible en diferentes dispositivos.</span>
-
+                    <span class="normal-text">Trabajamos con un diseño responsive que asegura que tu contenido sea flexible y pueda ser utilizado en cualquier tipo de dispositivo electronico.</span>
                 </div>
             </a>
         </div>
@@ -66,7 +97,7 @@
                 <%= image_tag("GalTec/home-soporte.jpg", alt:"soporte" ,class:"studios home-img")  %>
                 <div class="inset">
                     <h3 class="title light">Soporte</h3>
-                    <span class="normal-text">Mantenemos contacto contigo durante todo el proceso Pre y Post desarrollo para asegurar la mejor experiencia.</span>
+                    <span class="normal-text">Mantenemos contacto contigo en el proceso pre y post desarrollo para asegurar la mejor experiencia.</span>
 
                 </div>
             </a>
@@ -76,8 +107,7 @@
                 <%= image_tag("GalTec/home-educacion.jpg", alt:"educacion" ,class:"studios home-img")  %>
                 <div class="inset">
                     <h3 class="title light">Capacitacion</h3>
-                    <span class="normal-text">Nuestro equipo esta en capacitación constante . eso te garantiza que las soluciones que te ofrecemos sean modernas.</span>
-
+                    <span class="normal-text">Nuestros GALTECianos aman su trabajo y están en constante capacitación y actualización, asegurando la calidad en todo nuestro servicio.</span>
                 </div>
             </a>
         </div>
@@ -86,7 +116,7 @@
     <div class="row">
         <div class="large-12 columns">
             <h4 class="centered-text lead bottom-40">Estas son algunas de las tecnologías con las que trabajamos, estamos siempre mejorando:</h4>
-            
+
             <ul class="zurb-logos show-for-large-up">
                 <li><%= image_tag("html5logo.png",alt:"HTML5") %></li>
                 <li><%= image_tag("jquerylogo.png",alt:"jquery") %></li>
@@ -97,4 +127,7 @@
         </div>
     </div>
 </div>
+
 </div>
+
+<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
