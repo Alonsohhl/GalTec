@@ -1,39 +1,32 @@
 <%provide(:title,"Inicio")%>
-  <div class="main-header services home" style="overflow: hidden">
-    <nav class="global-nav top-bar">
-      <%= render(:partial => "static_pages/menubar") %>
-    </nav>
 
-      <div class="text-overlay text-center">
-        <div class="header-text">
-          <h1 class="light white-text text-center">Ideas en ACCIÓN</h1>
-          <div class="row">
-            <div class="large-8 columns large-centered text-center">
-              <p class="lead white-text"><strong>Galtec</strong>
-                Desarrollo Inteligente.
-                <br>Nuestro equipo trabaja con pasión y compromiso para ofrecer lo mejor y acompañar el exito de nuestros clientes.</p>
-                <%##%>
-                <a href="https://wistia.sslcs.cdngc.net/deliveries/26a88bbc3265ed2385ee78bd332adebb32648da1/file.mp4" class="green button pause-play-button">Galtec en 30 segundos &rarr;</a>
-            </div>
-          </div>
-        </div>
-        <a class="small button pause-video"></a>
-      </div>
-      <div class="video-wrapper hide-for-small">
-        <video id="studiosBackground">
-          <%##%><source src="https://wistia.sslcs.cdngc.net/deliveries/26a88bbc3265ed2385ee78bd332adebb32648da1/file.mp4" type="video/mp4">
-          <%##%><source src="https://d3uqdvietz3th5.cloudfront.net/studios.webm" type="video/webm">
-          <%##%><source src="https://wistia.sslcs.cdngc.net/deliveries/26a88bbc3265ed2385ee78bd332adebb32648da1/file.ogv" type="video/ogg">
-        </video>
-        <video id="studiosBackgroundLoop" autoplay loop muted>
-          <%##%><source src="https://d3uqdvietz3th5.cloudfront.net/studios-trailer3202014.mp4?03202014" type="video/mp4">
-          <%##%><source src="https://d3uqdvietz3th5.cloudfront.net/studios-trailer3202014.webm?03202014" type="video/webm">
-          <%##%><source src="https://d3uqdvietz3th5.cloudfront.net/studios-trailer3202014.ogv?03202014" type="video/ogg">
-        </video>
-      </div>
-      <p class="lead scroll">o sigue buscando</p>
+  <!-- header mio-->
+<%= render(:partial => "static_pages/menubar") %>
 
+<div class="main-header services home" style="overflow: hidden">
+<div class="text-overlay text-center">
+  <div class="header-text">
+    <h1 class="light white-text text-center">Ideas en ACCIÓN</h1>
+    <div class="row">
+      <div class="large-8 columns large-centered text-center">
+        <p class="lead white-text">
+          <strong>Galtec</strong>
+          Desarrollo Inteligente.
+          <br>Nuestro equipo trabaja con pasión y compromiso para ofrecer lo mejor y acompañar el exito de nuestros clientes.</p>
+        <a href="https://wistia.sslcs.cdngc.net/deliveries/26a88bbc3265ed2385ee78bd332adebb32648da1/file.mp4" class="green button pause-play-button">Galtec en 30 segundos &rarr;</a>
+      </div>
+    </div>
   </div>
+  <a class="small button pause-video"></a>
+</div>
+<div class="video-wrapper hide-for-small">
+  <%= video_tag("https://d3uqdvietz3th5.cloudfront.net/studios-trailer3202014.webm?03202014",id:"studiosBackgroundLoop",autoplay:"" ,loop:"" ,muted:"" ,style:"height: 100%; width: auto;") %>
+  <!--https://d3uqdvietz3th5.cloudfront.net/studios-trailer3202014.webm?03202014 -->
+</div>
+<p class="lead scroll">o sigue buscando</p>
+</div>
+
+
   <div class="row">
     <div class="medium-10 large-9 columns medium-centered">
       <p class="lead large text-center">
@@ -87,7 +80,7 @@
             <a href="/services" class="centered-text click-block">
                 <%= image_tag("GalTec/home-multiplataforma.jpg", alt:"multiplataforma" ,class:"studios home-img")  %>
                 <div class="inset">
-                    <h3 class="title light">Multiplataforma</h3>
+                    <h3 class="title light">Responsive</h3>
                     <span class="normal-text">Trabajamos con un diseño responsive que asegura que tu contenido sea flexible y pueda ser utilizado en cualquier tipo de dispositivo electronico.</span>
                 </div>
             </a>

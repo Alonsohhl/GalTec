@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   root 'static_pages#index'
 
   #get 'welcome/index'
-  get '/about' ,  to:'static_pages#about'
+  get '/about' ,  to:'static_pages#about' 
   get '/contact' ,  to:'static_pages#contact'
   get '/news' ,  to:'static_pages#news'
   get '/services' ,  to:'static_pages#services'

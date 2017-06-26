@@ -1,4 +1,19 @@
-<ul class="title-area">
+
+<div class="galtec-body" id="galtec-global-header">
+
+<nav>
+  <div class="wrapper">
+    <%=content_tag(:a, "GalTec",href:index_path) %>
+    <%=content_tag(:a, "Nosotros",href:about_path) %>
+    <%=content_tag(:a, "Servicios",href:services_path) %>
+    <%=content_tag(:a, "Contacto",href:contact_path) %>
+  </div>
+</nav>
+    <!--div class="expanded-nav-switch" data-section="switch">
+    </div -->
+</div>
+
+<!--ul class="title-area">
     <li class="name">
         <a class="sidebar-button show-for-small" id="sidebarButton" href="#sidebar"><img alt="Menu-icon" src="http://zurb.com/assets/offcanvas/menu-icon-e83086c09404412657dd5591074dbb3c.png"/></a>
         <h1>
@@ -21,4 +36,4 @@
             <%= link_to "Contactenos", contact_path  , :class=>("current" if @form_ide=="Contacto")%>
         </li>
     </ul>
-</section>
+</section -->

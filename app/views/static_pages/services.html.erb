@@ -1,8 +1,5 @@
 <%provide(:title,"Servicios")%>
-
-  <nav class="global-nav top-bar">
     <%= render(:partial => "static_pages/menubar") %>
-  </nav>
 
       <div class="interior-header green">
             <div class="row">
@@ -172,4 +169,28 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class="signup-bar">
+  <div class="row">
+    <div class="large-6 columns">
+      <h3 class="light">Stay in touch</h3>
+      <p class="lead">Learn about upcoming events before anyone else by subscribing to our Soapbox alerts. Expect a couple emails a month.</p>
+      <br>
+      <p class="lead">You can also listen to us on
+        <a href="https://itunes.apple.com/us/podcast/zurbsoapbox/id304600897" title="iTunes Feed" class="rss">iTunes</a>
+        or subscribe to our
+        <a href="https://feeds.feedburner.com/zurbsoapbox" class="rss" title="RSS Podcast">Soapbox RSS Podcast</a>.</p>
+    </div>
+    <div class="large-6 columns">
+      <div class="normal-state">
+        <form accept-charset="UTF-8" action="http://zurb.com/soapbox/stay_connected" class="stay-in-touch" method="post">
+          <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;"/><input name="authenticity_token" type="hidden" value="sThUVADh006D7fy7CWYYIYZLmOZm/cvS9MYNGjwPkhE="/></div>
+          <input class="medium input-text" id="full_name" name="full_name" placeholder="Full Name" type="text"/>
+          <input class="medium input-text" id="email" name="email" placeholder="Email Address" type="text"/>
+          <input class="button" name="commit" type="submit" value="Stay Connected"/>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>
