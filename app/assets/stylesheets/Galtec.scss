@@ -48,11 +48,14 @@ h1 {
     > div.wrapper{
       background: $color4;
       display: flex; //-ms-flex-wrap: nowrap;
-      flex-wrap: nowrap; //padding-left: 180px;
+      flex-wrap: wrap; //padding-left: 180px;
+      flex-direction: row;/*
       position: relative;
       z-index: 0;
       transform-origin: center bottom;
       transition: transform 300ms ease-in-out;
+      align-items: center;*/
+
 
       >a{
         display: block;
@@ -60,10 +63,12 @@ h1 {
         color: $color5;
         line-height: 40px;
         height: 40px;
-        width: 25%;
+      //  width:  25%;%;
+      //   width:  150px;
         cursor: pointer;
         text-align: center;
         white-space: nowrap;
+        flex-grow: 1;
         &:hover {
           background: $color1;
           color: $color4;}
@@ -86,7 +91,7 @@ h1 {
 }
 
 // Full Navigation, including mobile menu
-nav .galtec{
+/*nav .galtec{
   ul {
     display: flex;
     justify-content: space-between;
@@ -183,4 +188,4 @@ nav .galtec{
     //  justify-content: space-between;
     }
   }
-}
+}*/
