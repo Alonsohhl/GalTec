@@ -1085,7 +1085,7 @@ div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, t
 }
 
 a {
-    color: #95a105;
+    color: #e3373e;
     text-decoration: none;
     line-height: inherit
 }
@@ -1396,7 +1396,7 @@ button, .button {
     padding-bottom: 0.8125em;
     padding-left: 1.5em;
     font-size: 1em;
-    background-color: #95a105;
+    background-color: #e3373e;
     border-color: #677003;
     color: #fff
 }
@@ -1492,7 +1492,7 @@ button.right-align, .button.right-align {
 }
 
 button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #95a105;
+    background-color: #e3373e;
     border-color: #677003;
     color: #fff;
     cursor: default;
@@ -4248,7 +4248,7 @@ form.custom .custom.disabled {
     position: relative;
     padding: 0.6875em 1.3125em 0.75em 0.6875em;
     font-size: 0.875em;
-    background-color: #95a105;
+    background-color: #e3373e;
     border-color: #677003;
     color: #fff
 }
@@ -4391,7 +4391,7 @@ form.custom .custom.disabled {
     position: relative;
     padding: 0.1875em 0.625em 0.25em;
     font-size: 0.875em;
-    background-color: #95a105;
+    background-color: #e3373e;
     color: #fff
 }
 
@@ -6090,7 +6090,7 @@ ul.the-zurbians li a {
 }
 
 .zurb-dot-com a {
-    color: #95a105;
+    color: #e3373e;
     font-weight: bold
 }
 
