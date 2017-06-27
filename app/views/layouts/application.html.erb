@@ -27,39 +27,7 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
-    <script src="http://zurb.com/assets/custom.modernizr-10edc0fdd7691ce0099730e56622df91.js" type="text/javascript"></script>
-    <script type="text/javascript">
 
-    	// ZURB Top Level
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-2195009-2']);
-      _gaq.push(['_trackPageview']);
-
-      // ZURB Marketing Level
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-2195009-54']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-          </script>
-      <script type="text/javascript">var _kmq = _kmq || [];
-      var _kmk = _kmk || "d945f04ff5e68057c85f5323b46f185efb3826b3";
-      function _kms(u){
-        setTimeout(function(){
-          var d = document, f = d.getElementsByTagName('script')[0],
-          s = d.createElement('script');
-          s.type = 'text/javascript'; s.async = true; s.src = u;
-          f.parentNode.insertBefore(s, f);
-        }, 1);
-      }
-      _kms('//i.kissmetrics.com/i.js');
-      _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
-        </script>
   </head>
 
 
@@ -70,7 +38,7 @@
       <%= render(:partial => 'footer')%>
 
       <%#texto animado%>
-            <script type="text/javascript" src="https://intercom.zurb.com/scripts/zcom.js"></script>
+            
       <script>
           $(document).foundation();
       </script>

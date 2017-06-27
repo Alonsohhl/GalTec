@@ -5221,7 +5221,7 @@ a#notice {
     position: relative;
     padding: 1rem 0;
     width: 100%;
-    background-image: url(http://zurb.com/university/assets/zurbwired2016-web-banner-a95e5d17264e3617a2ae4f34e84f973b.gif);
+    background-image: url(http://galtec.org/university/assets/zurbwired2016-web-banner-a95e5d17264e3617a2ae4f34e84f973b.gif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -5329,7 +5329,7 @@ a#notice .info h5 {
 }
 
 .bandwagon {
-    background: url(//zurb.com/assets/icons/event-bandwagon-cc2294aa4dcb30f8e8567e7be8080e74.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/icons/event-bandwagon-cc2294aa4dcb30f8e8567e7be8080e74.png) no-repeat 0 0;
     padding-left: 43px
 }
 
@@ -5659,7 +5659,7 @@ blockquote {
     color: #555;
     position: relative;
     padding-right: 80px;
-    background: url(//zurb.com/assets/services/icons/blockquote-b0d7d3a14ac46279f32639226864ae69.png) no-repeat right 7px
+    background: url(//galtec.org/assets/services/icons/blockquote-b0d7d3a14ac46279f32639226864ae69.png) no-repeat right 7px
 }
 
 blockquote cite {
@@ -5899,7 +5899,7 @@ ul.normal-disc-list li {
 }
 
 a.click-block.properties {
-    background: url(//zurb.com/assets/zurb/sketches/products-0bc13ec8350b8c94c83a416e4f1675a0.png) no-repeat center 0;
+    background: url(//galtec.org/assets/zurb/sketches/products-0bc13ec8350b8c94c83a416e4f1675a0.png) no-repeat center 0;
     padding-top: 175px
 }
 
@@ -6041,7 +6041,7 @@ ul.zurb-logos li {
 
 .ideas-accessible {
     padding-top: 150px;
-    background: url(//zurb.com/assets/zurb/icons/ideas-accessible-4bc08d4ddb1f7b9637ed6c5c0ed19ea2.png) no-repeat 0 0
+    background: url(//galtec.org/assets/zurb/icons/ideas-accessible-4bc08d4ddb1f7b9637ed6c5c0ed19ea2.png) no-repeat 0 0
 }
 
 .ideas-accessible.services {
@@ -6137,7 +6137,7 @@ ul.social-links {
 
 ul.social-links li a {
     display: block;
-    background: url(//zurb.com/assets/zurb/icons/profile-social-530cee932ac450b5c2804efc5e803a47.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/zurb/icons/profile-social-530cee932ac450b5c2804efc5e803a47.png) no-repeat 0 0;
     padding-left: 24px
 }
 
@@ -6172,7 +6172,7 @@ p.less-bottom {
 }
 
 .california-map {
-    background: url(//zurb.com/assets/zurb/illustrations/map-9731e77f4d3328ccb8c2f6f6fb9509b3.png) no-repeat center top;
+    background: url(//galtec.org/assets/zurb/illustrations/map-9731e77f4d3328ccb8c2f6f6fb9509b3.png) no-repeat center top;
     height: 640px;
     margin-top: 50px
 }
@@ -6192,7 +6192,7 @@ p.less-bottom {
 }
 
 .california-map.services {
-    background: url(//zurb.com/assets/services/illustrations/california-map-8723e3a56406cf1a657800281cb87a5d.png) no-repeat center center;
+    background: url(//galtec.org/assets/services/illustrations/california-map-8723e3a56406cf1a657800281cb87a5d.png) no-repeat center center;
     height: 435px
 }
 
@@ -6312,7 +6312,7 @@ ul.timeline-list li:last-child {
 
 .world-domination {
     padding-left: 72px;
-    background: url(//zurb.com/assets/zurb/icons/world-domination-70be0c15a725cc1dd6db90f337a74ac9.png) no-repeat 0 0
+    background: url(//galtec.org/assets/zurb/icons/world-domination-70be0c15a725cc1dd6db90f337a74ac9.png) no-repeat 0 0
 }
 
 .world-domination.learning {
@@ -6387,15 +6387,15 @@ ul.job-openings li p {
 }
 
 .benefits.tie {
-    background: url(//zurb.com/assets/zurb/benefits/tie-9f963795e64a748146d9a19f596f238b.jpg) #bad401 no-repeat center top
+    background: url(//galtec.org/assets/zurb/benefits/tie-9f963795e64a748146d9a19f596f238b.jpg) #bad401 no-repeat center top
 }
 
 .benefits.travel {
-    background: url(//zurb.com/assets/zurb/benefits/travel-296edd5a6d1be105b833cfb8e1cca2b7.jpg) #bad401 no-repeat center top
+    background: url(//galtec.org/assets/zurb/benefits/travel-296edd5a6d1be105b833cfb8e1cca2b7.jpg) #bad401 no-repeat center top
 }
 
 .benefits.food {
-    background: url(//zurb.com/assets/zurb/benefits/food-1-8357062108ba22e33845e6ae651332c5.jpg) #bad401 no-repeat center top
+    background: url(//galtec.org/assets/zurb/benefits/food-1-8357062108ba22e33845e6ae651332c5.jpg) #bad401 no-repeat center top
 }
 
 .leader-twitter img {
@@ -6511,16 +6511,16 @@ ul.job-openings li p {
         font-size: 1.25em
     }
     .main-header.random-1 {
-        background: url(//zurb.com/assets/zurb/background/home-1-2472e5be97a37619fa4240c051870102.jpg) no-repeat center center #fff
+        background: url(//galtec.org/assets/zurb/background/home-1-2472e5be97a37619fa4240c051870102.jpg) no-repeat center center #fff
     }
     .main-header.random-2 {
-        background: url(//zurb.com/assets/zurb/background/home-2-64fc5097d61de4ac3a4e1481ced97cbf.jpg) no-repeat center center #fff
+        background: url(//galtec.org/assets/zurb/background/home-2-64fc5097d61de4ac3a4e1481ced97cbf.jpg) no-repeat center center #fff
     }
     .main-header.random-3 {
-        background: url(//zurb.com/assets/zurb/background/home-3-7a52f53ea346df64e6c16dcd8e5a9d44.jpg) no-repeat center center #fff
+        background: url(//galtec.org/assets/zurb/background/home-3-7a52f53ea346df64e6c16dcd8e5a9d44.jpg) no-repeat center center #fff
     }
     .main-header.random-4 {
-        background: url(//zurb.com/assets/zurb/background/home-5-f2c61efbd114371215e7d50bde178df8.jpg) no-repeat center center #fff
+        background: url(//galtec.org/assets/zurb/background/home-5-f2c61efbd114371215e7d50bde178df8.jpg) no-repeat center center #fff
     }
     .main-header.home {
         height: 650px
@@ -6609,7 +6609,7 @@ a.click-block:hover span.add-color {
 }
 
 .home-sketches {
-    background: url(//zurb.com/assets/services/sketches/how-can-we-help-b6c6d23142f22c80046d6f5926afecb1.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/services/sketches/how-can-we-help-b6c6d23142f22c80046d6f5926afecb1.png) no-repeat 0 0;
     padding-top: 215px
 }
 
@@ -6626,7 +6626,7 @@ a.click-block:hover span.add-color {
 }
 
 .home-icons {
-    background: url(//zurb.com/assets/services/icons/well-help-you-build-it-a89f6571c5442399e5d989f6def986fb.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/services/icons/well-help-you-build-it-a89f6571c5442399e5d989f6def986fb.png) no-repeat 0 0;
     padding-left: 65px
 }
 
@@ -6688,7 +6688,7 @@ a.click-block:hover span.add-color {
     font-size: 0.875em;
     list-style: none;
     padding: 0 0 0 30px;
-    background: url(//zurb.com/assets/zurb/icons/product-icons-8525a531011e52300415911e2ea56ffc.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/zurb/icons/product-icons-8525a531011e52300415911e2ea56ffc.png) no-repeat 0 0;
     margin-bottom: 8px
 }
 
@@ -6991,7 +6991,7 @@ hr.slim {
 }
 
 .interior-header.about {
-    background: url(//zurb.com/assets/zurb/test-bkgd-ad281e7a1abed3dbbe8aae4358e4dbe3.jpg) no-repeat 0 0;
+    background: url(//galtec.org/assets/zurb/test-bkgd-ad281e7a1abed3dbbe8aae4358e4dbe3.jpg) no-repeat 0 0;
     background-size: cover
 }
 
@@ -7074,7 +7074,7 @@ hr.no-space {
 }
 
 .our-work-sketches {
-    background: url(//zurb.com/assets/services/sketches/product-design-capabilities-2da643b63d403dca4ed6ca6196126cf9.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/services/sketches/product-design-capabilities-2da643b63d403dca4ed6ca6196126cf9.png) no-repeat 0 0;
     padding-top: 215px
 }
 
@@ -7100,7 +7100,7 @@ hr.no-space {
 }
 
 .process-icons-sm {
-    background: url(//zurb.com/assets/services/icons/process-icons-retina-e8245e4c7e720b14f9c882f5059db16d.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/services/icons/process-icons-retina-e8245e4c7e720b14f9c882f5059db16d.png) no-repeat 0 0;
     background-size: 40px;
     padding-left: 35px
 }
@@ -7130,7 +7130,7 @@ hr.no-space {
 }
 
 .process-icons {
-    background: url(//zurb.com/assets/services/icons/design-process-retina-c8a27eb54b3f9ae2172af6b0d4d488a2.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/services/icons/design-process-retina-c8a27eb54b3f9ae2172af6b0d4d488a2.png) no-repeat 0 0;
     background-size: 120px;
     padding-top: 140px
 }
@@ -7175,7 +7175,7 @@ hr.no-space {
 
 @media only screen and (max-width: 767px) {
     .process-icons.plus {
-        background: url(//zurb.com/assets/services/icons/process-icons-retina-e8245e4c7e720b14f9c882f5059db16d.png) no-repeat 0 0;
+        background: url(//galtec.org/assets/services/icons/process-icons-retina-e8245e4c7e720b14f9c882f5059db16d.png) no-repeat 0 0;
         background-size: 40px;
         padding-left: 35px;
         padding-top: 0
@@ -7198,7 +7198,7 @@ hr.no-space {
 }
 
 .customer-relationship {
-    background: url(//zurb.com/assets/services/icons/customer-relationships-a099ce25259a78751df3907865e09fb2.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/services/icons/customer-relationships-a099ce25259a78751df3907865e09fb2.png) no-repeat 0 0;
     padding-top: 125px
 }
 
@@ -7244,7 +7244,7 @@ hr.no-space {
 
 .unfold-together {
     padding-left: 24px;
-    background: url(//zurb.com/assets/services/icons/unfold-together-a285cbb9dc1bcd01f7ae2923dc927199.png) no-repeat 0 0
+    background: url(//galtec.org/assets/services/icons/unfold-together-a285cbb9dc1bcd01f7ae2923dc927199.png) no-repeat 0 0
 }
 
 .unfold-together.effective-methods {
@@ -7280,7 +7280,7 @@ hr.no-space {
 }
 
 .rapid-prototyping-and {
-    background: url(//zurb.com/assets/services/icons/rapid-prototyping-174afd6e8815d5d74fdf46d6f49ae357.png) no-repeat 0 0
+    background: url(//galtec.org/assets/services/icons/rapid-prototyping-174afd6e8815d5d74fdf46d6f49ae357.png) no-repeat 0 0
 }
 
 .rapid-prototyping-and.foundation {
@@ -7300,7 +7300,7 @@ hr.no-space {
 }
 
 .design-for-any-device {
-    background: url(//zurb.com/assets/services/icons/design-for-any-24f7b61c99980fc3ebf053f1bf262d23.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/services/icons/design-for-any-24f7b61c99980fc3ebf053f1bf262d23.png) no-repeat 0 0;
     padding-left: 60px
 }
 
@@ -7327,7 +7327,7 @@ hr.no-space {
 }
 
 .services-map {
-    background: url(//zurb.com/assets/zurb/illustrations/campbell-map-50c96d8074435e95031a9cb2b6a0021d.jpg) no-repeat center top;
+    background: url(//galtec.org/assets/zurb/illustrations/campbell-map-50c96d8074435e95031a9cb2b6a0021d.jpg) no-repeat center top;
     height: 505px;
     width: 100%;
     overflow: visible;
@@ -7342,7 +7342,7 @@ hr.no-space {
 .services-map .map-content .map-icon {
     display: block;
     position: absolute;
-    background: url(//zurb.com/assets/zurb/icons/map-icons-420e5171abfcc3a7918a26c716766571.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/zurb/icons/map-icons-420e5171abfcc3a7918a26c716766571.png) no-repeat 0 0;
     height: 31px;
     width: 31px
 }
@@ -7523,7 +7523,7 @@ hr.no-space {
 }
 
 .fav-tweet {
-    background: url(//zurb.com/assets/services/icons/twitter-58e2d6779362fdb5f644c7eb9807cc4a.png) no-repeat center top;
+    background: url(//galtec.org/assets/services/icons/twitter-58e2d6779362fdb5f644c7eb9807cc4a.png) no-repeat center top;
     padding-top: 50px
 }
 
@@ -7619,19 +7619,19 @@ p.caption strong {
 }
 
 .zurbian-quote.caleb {
-    background: url(//zurb.com/assets/quotes/caleb-large-6b80bd31c80b2f9641a8746a262c5bad.jpg) no-repeat center top;
+    background: url(//galtec.org/assets/quotes/caleb-large-6b80bd31c80b2f9641a8746a262c5bad.jpg) no-repeat center top;
     background-size: 1200px 484px;
     margin: 32px 0 50px
 }
 
 .zurbian-quote.jonathan {
-    background: url(//zurb.com/assets/quotes/jonathan-large-3ddae77c914673f2473c36782f9fcd06.jpg) no-repeat center top;
+    background: url(//galtec.org/assets/quotes/jonathan-large-3ddae77c914673f2473c36782f9fcd06.jpg) no-repeat center top;
     background-size: 1200px 484px;
     margin: 32px 0 50px
 }
 
 .zurbian-quote.jessica {
-    background: url(//zurb.com/assets/quotes/jessica-large-4d44a9d073ef964c2d7d9bd60fcbdf35.jpg) no-repeat center top;
+    background: url(//galtec.org/assets/quotes/jessica-large-4d44a9d073ef964c2d7d9bd60fcbdf35.jpg) no-repeat center top;
     background-size: 1200px 484px;
     margin: 32px 0 0;
     padding: 75px 0 55px
@@ -7690,7 +7690,7 @@ p.caption strong {
         margin-left: 257px
     }
     .sparks.one .sketch {
-        background-image: url(//zurb.com/assets/services/sketches/wt-1-48b9493276c3bc7a2163f0e7869d2188.jpg);
+        background-image: url(//galtec.org/assets/services/sketches/wt-1-48b9493276c3bc7a2163f0e7869d2188.jpg);
         height: 240px;
         width: 191px;
         left: -210px;
@@ -7700,7 +7700,7 @@ p.caption strong {
         margin-left: 20px
     }
     .sparks.two .sketch {
-        background-image: url(//zurb.com/assets/services/sketches/wt-2-c2af141a78a2a01c115e80514c86e417.jpg);
+        background-image: url(//galtec.org/assets/services/sketches/wt-2-c2af141a78a2a01c115e80514c86e417.jpg);
         height: 310px;
         width: 285px;
         right: 0;
@@ -7710,7 +7710,7 @@ p.caption strong {
         margin-left: 315px
     }
     .sparks.three .sketch {
-        background-image: url(//zurb.com/assets/services/sketches/wt-3-4bf0b422b6fc57ccf9cfa520a15d9007.jpg);
+        background-image: url(//galtec.org/assets/services/sketches/wt-3-4bf0b422b6fc57ccf9cfa520a15d9007.jpg);
         height: 266px;
         width: 351px;
         left: -340px;
@@ -7720,7 +7720,7 @@ p.caption strong {
         margin-left: 0
     }
     .sparks.four .sketch {
-        background-image: url(//zurb.com/assets/services/sketches/wt-4-de47d23bbec07a0f5d48d82901cf20b9.jpg);
+        background-image: url(//galtec.org/assets/services/sketches/wt-4-de47d23bbec07a0f5d48d82901cf20b9.jpg);
         height: 255px;
         width: 345px;
         right: 70px;
@@ -7730,7 +7730,7 @@ p.caption strong {
         margin-left: 268px
     }
     .sparks.five .sketch {
-        background-image: url(//zurb.com/assets/services/sketches/wt-5-dd9ec4c475951c083a5461d07be6d588.jpg);
+        background-image: url(//galtec.org/assets/services/sketches/wt-5-dd9ec4c475951c083a5461d07be6d588.jpg);
         height: 290px;
         width: 221px;
         left: -230px;
@@ -7935,7 +7935,7 @@ ul.life li {
 }
 
 .zurb-benefits .green-bg.basics {
-    background: url(//zurb.com/assets/zurb/benefits/basic-bg-1e83bfc81ae7f7cbda353a53a73ba32c.png) no-repeat center bottom #aec70a;
+    background: url(//galtec.org/assets/zurb/benefits/basic-bg-1e83bfc81ae7f7cbda353a53a73ba32c.png) no-repeat center bottom #aec70a;
     min-height: 433px;
     color: white
 }
@@ -7959,7 +7959,7 @@ ul.life li {
 }
 
 .zurb-benefits .dark-green-bg.make-it-rain {
-    background: url(//zurb.com/assets/zurb/benefits/britney-bg-350fc150bdc708b170b9fa4f7a8f8b12.jpg) no-repeat center bottom #a1b800;
+    background: url(//galtec.org/assets/zurb/benefits/britney-bg-350fc150bdc708b170b9fa4f7a8f8b12.jpg) no-repeat center bottom #a1b800;
     min-height: 545px
 }
 
@@ -8029,7 +8029,7 @@ ul.life li {
 }
 
 .zurb-benefits .vacation {
-    background: url(//zurb.com/assets/zurb/benefits/vacation-bg-9fdb00c267ed559168066d1e8365dfc9.png) no-repeat 305px bottom
+    background: url(//galtec.org/assets/zurb/benefits/vacation-bg-9fdb00c267ed559168066d1e8365dfc9.png) no-repeat 305px bottom
 }
 
 @media only screen and (max-width: 767px) {
@@ -8085,7 +8085,7 @@ ul.life li {
 }
 
 .zurb-benefits .vacation ul.where-zurbians li p {
-    background: url(//zurb.com/assets/zurb/benefits/vacation-quotes-70e27fe7a5c37551aed2fdaff32b48ac.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/zurb/benefits/vacation-quotes-70e27fe7a5c37551aed2fdaff32b48ac.png) no-repeat 0 0;
     padding: 10px 0 15px 65px
 }
 
@@ -8098,7 +8098,7 @@ ul.life li {
 }
 
 .zurb-benefits .learning {
-    background: url(//zurb.com/assets/zurb/benefits/steve-73dfa72daba8f6f61d8234b6e9a7ade8.jpg) no-repeat left bottom #b8d30b
+    background: url(//galtec.org/assets/zurb/benefits/steve-73dfa72daba8f6f61d8234b6e9a7ade8.jpg) no-repeat left bottom #b8d30b
 }
 
 .zurb-benefits .learning h3 {
@@ -8117,7 +8117,7 @@ ul.life li {
 }
 
 .zurb-benefits .learning-icons {
-    background: url(//zurb.com/assets/zurb/benefits/learning-icons-df3968e937b168b913175681acf507ed.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/zurb/benefits/learning-icons-df3968e937b168b913175681acf507ed.png) no-repeat 0 0;
     padding-left: 87px;
     margin-bottom: 80px
 }
@@ -8135,7 +8135,7 @@ ul.life li {
 }
 
 .zurb-benefits .coverage {
-    background: url(//zurb.com/assets/zurb/benefits/coverage-e2668dcafe9b2159850dc7e73bb96733.jpg) no-repeat center bottom #a1b800
+    background: url(//galtec.org/assets/zurb/benefits/coverage-e2668dcafe9b2159850dc7e73bb96733.jpg) no-repeat center bottom #a1b800
 }
 
 .zurb-benefits .coverage h3 {
@@ -8148,7 +8148,7 @@ ul.life li {
 }
 
 .zurb-benefits .food h2 {
-    background: url(//zurb.com/assets/zurb/benefits/food-bc43e23ffb0471aafae2195a400cd62a.png) no-repeat 197px 270px;
+    background: url(//galtec.org/assets/zurb/benefits/food-bc43e23ffb0471aafae2195a400cd62a.png) no-repeat 197px 270px;
     padding-top: 64px
 }
 
@@ -8178,7 +8178,7 @@ ul.life li {
 }
 
 .zurb-benefits .clean {
-    background: url(//zurb.com/assets/zurb/benefits/clean-bg-a09627e2c0d91bfbbcf0842451a6f79b.png) no-repeat center top #a1b800
+    background: url(//galtec.org/assets/zurb/benefits/clean-bg-a09627e2c0d91bfbbcf0842451a6f79b.png) no-repeat center top #a1b800
 }
 
 .zurb-benefits .clean h2 {
@@ -8196,7 +8196,7 @@ ul.life li {
 
 .zurb-benefits .clean .cleaning-icon {
     padding-left: 45px;
-    background: url(//zurb.com/assets/zurb/benefits/clean-icons-dae4c563f0b70ec01803b26d67e5c611.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/zurb/benefits/clean-icons-dae4c563f0b70ec01803b26d67e5c611.png) no-repeat 0 0;
     margin-top: 10px;
     margin-bottom: 97px
 }
@@ -8255,7 +8255,7 @@ ul.life li {
 }
 
 .zurb-benefits .work .work-icons h4 {
-    background: url(//zurb.com/assets/zurb/benefits/work-icons-504187894c31d1e8a8698ddb90595c20.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/zurb/benefits/work-icons-504187894c31d1e8a8698ddb90595c20.png) no-repeat 0 0;
     padding-top: 45px
 }
 
@@ -8298,7 +8298,7 @@ ul.life li {
 
 @media only screen and (min-width: 1024px) {
     .zurb-benefits .work .buddha-bg {
-        background: url(//zurb.com/assets/zurb/benefits/buddha-807be900ff8a025e803704f102cc24c1.jpg) no-repeat left bottom
+        background: url(//galtec.org/assets/zurb/benefits/buddha-807be900ff8a025e803704f102cc24c1.jpg) no-repeat left bottom
     }
     .zurb-benefits .work p.quote {
         margin-bottom: 290px
@@ -8625,20 +8625,20 @@ ul.life li {
 }
 
 .infographic.dog {
-    background: url(//zurb.com/assets/zurb/icons/cat-dog-2589bdccae48943e25bc9383dd3a0b70.jpg) no-repeat 0 0
+    background: url(//galtec.org/assets/zurb/icons/cat-dog-2589bdccae48943e25bc9383dd3a0b70.jpg) no-repeat 0 0
 }
 
 .infographic.cat {
-    background: url(//zurb.com/assets/zurb/icons/cat-dog-2589bdccae48943e25bc9383dd3a0b70.jpg) no-repeat 0 -71px
+    background: url(//galtec.org/assets/zurb/icons/cat-dog-2589bdccae48943e25bc9383dd3a0b70.jpg) no-repeat 0 -71px
 }
 
 .infographic.coffee {
-    background: url(//zurb.com/assets/zurb/icons/coffee-tea-b3c77b76402abaa96212ed051b15e06e.jpg) no-repeat 0 0;
+    background: url(//galtec.org/assets/zurb/icons/coffee-tea-b3c77b76402abaa96212ed051b15e06e.jpg) no-repeat 0 0;
     width: 40px
 }
 
 .infographic.tea {
-    background: url(//zurb.com/assets/zurb/icons/coffee-tea-b3c77b76402abaa96212ed051b15e06e.jpg) no-repeat 0 -71px;
+    background: url(//galtec.org/assets/zurb/icons/coffee-tea-b3c77b76402abaa96212ed051b15e06e.jpg) no-repeat 0 -71px;
     width: 40px
 }
 
@@ -8701,7 +8701,7 @@ ul.life li {
 }
 
 .error-page .copyright ul li.rss a {
-    background: url(//zurb.com/assets/homepage/rss-footer.png) no-repeat left center;
+    background: url(//galtec.org/assets/homepage/rss-footer.png) no-repeat left center;
     padding-left: 20px
 }
 
@@ -8739,25 +8739,25 @@ ul.life li {
 .fivehundred {
     width: 256px;
     height: 256px;
-    background: url(//zurb.com/assets/background/500-7cee4db27669712b71ff6addeb7898e9.png) no-repeat center center
+    background: url(//galtec.org/assets/background/500-7cee4db27669712b71ff6addeb7898e9.png) no-repeat center center
 }
 
 .loljackie {
     width: 256px;
     height: 256px;
-    background: url(//zurb.com/assets/background/404-73c3eb149ff4c82e52da645c46e27d48.png) no-repeat center center
+    background: url(//galtec.org/assets/background/404-73c3eb149ff4c82e52da645c46e27d48.png) no-repeat center center
 }
 
 .sadness {
     width: 256px;
     height: 256px;
-    background: url(//zurb.com/assets/background/sadness-130527ece535bf29211693fc5d7406d2.png) no-repeat center center
+    background: url(//galtec.org/assets/background/sadness-130527ece535bf29211693fc5d7406d2.png) no-repeat center center
 }
 
 .arthur-swimming {
     width: 100%;
     height: 100%;
-    background: url(//zurb.com/assets/misc/404-arthur-18bfb0d5a1baf9f72a43888c93df0edf.png) no-repeat left bottom;
+    background: url(//galtec.org/assets/misc/404-arthur-18bfb0d5a1baf9f72a43888c93df0edf.png) no-repeat left bottom;
     position: absolute;
     top: 0;
     z-index: 0
@@ -8766,7 +8766,7 @@ ul.life li {
 .arthur-nerf {
     width: 100%;
     height: 100%;
-    background: url(//zurb.com/assets/misc/500-arthur-54264adbe9c0bb860a65d37bf359d733.png) no-repeat left bottom;
+    background: url(//galtec.org/assets/misc/500-arthur-54264adbe9c0bb860a65d37bf359d733.png) no-repeat left bottom;
     position: absolute;
     top: 0;
     z-index: 0
@@ -8834,56 +8834,56 @@ ul.life li {
 
 @font-face {
     font-family: 'proxima-nova';
-    src: url(//zurb.com/assets/ProximaNova-Reg-webfont-b8b55b83af54d60b9da1d27a955e73e5.eot);
-    src: url(//zurb.com/assets/ProximaNova-Reg-webfont.eot?iefix) format("eot"), url(//zurb.com/assets/ProximaNova-Reg-webfont-549000935d83b98266a3b4b678f2cc17.woff) format("woff"), url(//zurb.com/assets/ProximaNova-Reg-webfont.ttf) format("truetype"), url(//zurb.com/assets/ProximaNova-Reg-webfont.svg#webfontZam02nTh) format("svg");
+    src: url(//galtec.org/assets/ProximaNova-Reg-webfont-b8b55b83af54d60b9da1d27a955e73e5.eot);
+    src: url(//galtec.org/assets/ProximaNova-Reg-webfont.eot?iefix) format("eot"), url(//galtec.org/assets/ProximaNova-Reg-webfont-549000935d83b98266a3b4b678f2cc17.woff) format("woff"), url(//galtec.org/assets/ProximaNova-Reg-webfont.ttf) format("truetype"), url(//galtec.org/assets/ProximaNova-Reg-webfont.svg#webfontZam02nTh) format("svg");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: 'proxima-nova';
-    src: url(//zurb.com/assets/ProximaNova-Light-webfont-875f0d42a52ff5536404da8fda8d423b.eot);
-    src: url(//zurb.com/assets/ProximaNova-Light-webfont.eot?#iefix) format("embedded-opentype"), url(//zurb.com/assets/ProximaNova-Light-webfont-2c260ec351010789f9443fc14163a627.woff) format("woff"), url(//zurb.com/assets/ProximaNova-Light-webfont-54f04429bcb4abf393917db9fc055862.ttf) format("truetype"), url(//zurb.com/assets/ProximaNova-Light-webfont.svg#proxima_novalight) format("svg");
+    src: url(//galtec.org/assets/ProximaNova-Light-webfont-875f0d42a52ff5536404da8fda8d423b.eot);
+    src: url(//galtec.org/assets/ProximaNova-Light-webfont.eot?#iefix) format("embedded-opentype"), url(//galtec.org/assets/ProximaNova-Light-webfont-2c260ec351010789f9443fc14163a627.woff) format("woff"), url(//galtec.org/assets/ProximaNova-Light-webfont-54f04429bcb4abf393917db9fc055862.ttf) format("truetype"), url(//galtec.org/assets/ProximaNova-Light-webfont.svg#proxima_novalight) format("svg");
     font-weight: 200;
     font-style: normal
 }
 
 @font-face {
     font-family: 'proxima-nova';
-    src: url(//zurb.com/assets/ProximaNova-Bold-webfont-e82a8e4a4b43cafeaf6887f15b38e344.eot);
-    src: url(//zurb.com/assets/ProximaNova-Bold-webfont.eot?iefix) format("eot"), url(//zurb.com/assets/ProximaNova-Bold-webfont-82b037348825c1cfffa6d0288ac6775a.woff) format("woff"), url(//zurb.com/assets/ProximaNova-Bold-webfont-9865ecf46e9eb2434f1ccf89fe815fc0.ttf) format("truetype"), url(//zurb.com/assets/ProximaNova-Bold-webfont.svg#webfontZ6etP9ZY) format("svg");
+    src: url(//galtec.org/assets/ProximaNova-Bold-webfont-e82a8e4a4b43cafeaf6887f15b38e344.eot);
+    src: url(//galtec.org/assets/ProximaNova-Bold-webfont.eot?iefix) format("eot"), url(//galtec.org/assets/ProximaNova-Bold-webfont-82b037348825c1cfffa6d0288ac6775a.woff) format("woff"), url(//galtec.org/assets/ProximaNova-Bold-webfont-9865ecf46e9eb2434f1ccf89fe815fc0.ttf) format("truetype"), url(//galtec.org/assets/ProximaNova-Bold-webfont.svg#webfontZ6etP9ZY) format("svg");
     font-weight: bold;
     font-style: normal
 }
 
 @font-face {
     font-family: 'proxima-nova';
-    src: url(//zurb.com/assets/ProximaNova-Xbold-webfont-3f9379fcebee4db72d58d7773af99d58.eot);
-    src: url(//zurb.com/assets/ProximaNova-Xbold-webfont.eot?iefix) format("eot"), url(//zurb.com/assets/ProximaNova-Xbold-webfont-9d3ae91a1f86f31aa6538d8e3353df98.woff) format("woff"), url(//zurb.com/assets/ProximaNova-Xbold-webfont-6956a9af1ef3f08e8cf76c0d5b04d3ab.ttf) format("truetype"), url(//zurb.com/assets/ProximaNova-Xbold-webfont.svg#webfont2rpW2ohz) format("svg");
+    src: url(//galtec.org/assets/ProximaNova-Xbold-webfont-3f9379fcebee4db72d58d7773af99d58.eot);
+    src: url(//galtec.org/assets/ProximaNova-Xbold-webfont.eot?iefix) format("eot"), url(//galtec.org/assets/ProximaNova-Xbold-webfont-9d3ae91a1f86f31aa6538d8e3353df98.woff) format("woff"), url(//galtec.org/assets/ProximaNova-Xbold-webfont-6956a9af1ef3f08e8cf76c0d5b04d3ab.ttf) format("truetype"), url(//galtec.org/assets/ProximaNova-Xbold-webfont.svg#webfont2rpW2ohz) format("svg");
     font-weight: 900;
     font-style: normal
 }
 
 @font-face {
     font-family: 'proxima-nova-condensed';
-    src: url(//zurb.com/assets/proximanovacond-light-webfont-a8ed5d6646e6e50f8546c77bc935eb79.eot);
-    src: url(//zurb.com/assets/proximanovacond-light-webfont.eot?#iefix) format("embedded-opentype"), url(//zurb.com/assets/proximanovacond-light-webfont-21bc73848b15d4fd408c7bc8fe26daca.woff) format("woff"), url(//zurb.com/assets/proximanovacond-light-webfont-8d5bb838da3beadf80571a2a5b7efd6e.ttf) format("truetype"), url(//zurb.com/assets/proximanovacond-light-webfont.svg#ProximaNovaCondensedBold) format("svg");
+    src: url(//galtec.org/assets/proximanovacond-light-webfont-a8ed5d6646e6e50f8546c77bc935eb79.eot);
+    src: url(//galtec.org/assets/proximanovacond-light-webfont.eot?#iefix) format("embedded-opentype"), url(//galtec.org/assets/proximanovacond-light-webfont-21bc73848b15d4fd408c7bc8fe26daca.woff) format("woff"), url(//galtec.org/assets/proximanovacond-light-webfont-8d5bb838da3beadf80571a2a5b7efd6e.ttf) format("truetype"), url(//galtec.org/assets/proximanovacond-light-webfont.svg#ProximaNovaCondensedBold) format("svg");
     font-weight: 200;
     font-style: normal
 }
 
 @font-face {
     font-family: 'proxima-nova-condensed';
-    src: url(//zurb.com/assets/proximanovacond-regular-webfont-d41cf453b981656bf268ada1ff88e9f0.eot);
-    src: url(//zurb.com/assets/proximanovacond-regular-webfont.eot?#iefix) format("embedded-opentype"), url(//zurb.com/assets/proximanovacond-regular-webfont-c76616c9b3b0c5eab298c05d2631e56b.woff) format("woff"), url(//zurb.com/assets/proximanovacond-regular-webfont-d26579d94b487620ca80212d8fdadf12.ttf) format("truetype"), url(//zurb.com/assets/proximanovacond-regular-webfont.svg#ProximaNovaCondensedBold) format("svg");
+    src: url(//galtec.org/assets/proximanovacond-regular-webfont-d41cf453b981656bf268ada1ff88e9f0.eot);
+    src: url(//galtec.org/assets/proximanovacond-regular-webfont.eot?#iefix) format("embedded-opentype"), url(//galtec.org/assets/proximanovacond-regular-webfont-c76616c9b3b0c5eab298c05d2631e56b.woff) format("woff"), url(//galtec.org/assets/proximanovacond-regular-webfont-d26579d94b487620ca80212d8fdadf12.ttf) format("truetype"), url(//galtec.org/assets/proximanovacond-regular-webfont.svg#ProximaNovaCondensedBold) format("svg");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: 'proxima-nova-condensed';
-    src: url(//zurb.com/assets/proximanovacond-bold-webfont-3b402fd1c6349c86e69e087a1d7390f9.eot);
-    src: url(//zurb.com/assets/proximanovacond-bold-webfont.eot?#iefix) format("embedded-opentype"), url(//zurb.com/assets/proximanovacond-bold-webfont-d89ea8a3709e5a1dff1cf2c4de880eb3.woff) format("woff"), url(//zurb.com/assets/proximanovacond-bold-webfont-3e5a2aeffb66089004b92225e195688b.ttf) format("truetype"), url(//zurb.com/assets/proximanovacond-bold-webfont.svg#ProximaNovaCondensedBold) format("svg");
+    src: url(//galtec.org/assets/proximanovacond-bold-webfont-3b402fd1c6349c86e69e087a1d7390f9.eot);
+    src: url(//galtec.org/assets/proximanovacond-bold-webfont.eot?#iefix) format("embedded-opentype"), url(//galtec.org/assets/proximanovacond-bold-webfont-d89ea8a3709e5a1dff1cf2c4de880eb3.woff) format("woff"), url(//galtec.org/assets/proximanovacond-bold-webfont-3e5a2aeffb66089004b92225e195688b.ttf) format("truetype"), url(//galtec.org/assets/proximanovacond-bold-webfont.svg#ProximaNovaCondensedBold) format("svg");
     font-weight: bold;
     font-style: normal
 }
@@ -9205,7 +9205,7 @@ ul.life li {
 .zurb-footer-top .property .learn-links, .zurb-footer-top .property .support-links, .zurb-footer-top .property .connect-links {
     padding: 50px 0 0 0;
     border-left: 1px solid rgba(255, 255, 255, 0.2);
-    background: url(//zurb.com/assets/icons/footer-top-icons-d13a8f114534b2024d968789ce673e32.png) no-repeat center 0;
+    background: url(//galtec.org/assets/icons/footer-top-icons-d13a8f114534b2024d968789ce673e32.png) no-repeat center 0;
     height: 220px;
     margin-bottom: 30px
 }
@@ -9257,19 +9257,19 @@ ul.life li {
 }
 
 .zurb-footer-top .global .footer-link-block.services {
-    background: url(//zurb.com/assets/icons/footer-studios-f56075c2b4c7fa565932106309bbbb5c.png) left top no-repeat
+    background: url(//galtec.org/assets/icons/footer-studios-f56075c2b4c7fa565932106309bbbb5c.png) left top no-repeat
 }
 
 .zurb-footer-top .global .footer-link-block.foundation {
-    background: url(//zurb.com/assets/icons/footer-foundation-ac6184a4dfac4d662581a40bbb95bfc6.png) left top no-repeat
+    background: url(//galtec.org/assets/icons/footer-foundation-ac6184a4dfac4d662581a40bbb95bfc6.png) left top no-repeat
 }
 
 .zurb-footer-top .global .footer-link-block.apps {
-    background: url(//zurb.com/assets/icons/footer-products-457e76dfa2fb989895638775b3e69c01.png) left top no-repeat
+    background: url(//galtec.org/assets/icons/footer-products-457e76dfa2fb989895638775b3e69c01.png) left top no-repeat
 }
 
 .zurb-footer-top .global .footer-link-block.expo {
-    background: url(//zurb.com/assets/icons/footer-expo-d7bbc1543c177028c1af529036cbd7d6.png) left top no-repeat
+    background: url(//galtec.org/assets/icons/footer-expo-d7bbc1543c177028c1af529036cbd7d6.png) left top no-repeat
 }
 
 .zurb-footer-top .global .footer-link-block span {
@@ -9300,7 +9300,7 @@ ul.life li {
 .zurb-footer-bottom a.zurb-logo {
     color: #111;
     font-weight: normal;
-    background: url(//zurb.com/assets/icons/footer-icons-32763e7969a45490945d5eddec1bd4ec.png) no-repeat 0 3px;
+    background: url(//galtec.org/assets/icons/footer-icons-32763e7969a45490945d5eddec1bd4ec.png) no-repeat 0 3px;
     padding: 25px 0 0 0;
     font-size: 1em;
     display: inline-block;
@@ -9363,7 +9363,7 @@ ul.life li {
     display: block;
     height: 50px;
     width: 50px;
-    background: url(//zurb.com/assets/icons/social-1c71e8186ecefc2eb97b9846b6d34b99.png) no-repeat center 0
+    background: url(//galtec.org/assets/icons/social-1c71e8186ecefc2eb97b9846b6d34b99.png) no-repeat center 0
 }
 
 .zurb-footer-bottom ul.home-social li a:hover {
@@ -9590,96 +9590,96 @@ ul.life li {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     .contact-links ul li {
-        background-image: url(//zurb.com/assets/zurb/icons/product-icons-retina-7d3fa7d26cc6983f89ae6f5dd8eb871e.png);
+        background-image: url(//galtec.org/assets/zurb/icons/product-icons-retina-7d3fa7d26cc6983f89ae6f5dd8eb871e.png);
         background-size: 20px 200px
     }
     .unfold-together {
-        background-image: url(//zurb.com/assets/services/icons/unfold-together-retina-aa234bfa73c6cea6f3e6d8a4f3d585aa.png);
+        background-image: url(//galtec.org/assets/services/icons/unfold-together-retina-aa234bfa73c6cea6f3e6d8a4f3d585aa.png);
         background-size: 18px 400px
     }
     .customer-relationship {
-        background-image: url(//zurb.com/assets/services/icons/customer-relationships-retina-0dbcaf8d05abb0e14f305b4448837357.png);
+        background-image: url(//galtec.org/assets/services/icons/customer-relationships-retina-0dbcaf8d05abb0e14f305b4448837357.png);
         background-size: 170px 3000px
     }
     .world-domination {
         padding-left: 72px;
-        background-image: url(//zurb.com/assets/zurb/icons/world-domination-retina-7acc8e8807b5836a5bb6573f79317cff.png);
+        background-image: url(//galtec.org/assets/zurb/icons/world-domination-retina-7acc8e8807b5836a5bb6573f79317cff.png);
         background-size: 50px 1200px
     }
     .zurb-benefits .learning-icons {
-        background-image: url(//zurb.com/assets/zurb/benefits/learning-icons-retina-1434a0c807ff4c2ba5ebdf3f69043478.png);
+        background-image: url(//galtec.org/assets/zurb/benefits/learning-icons-retina-1434a0c807ff4c2ba5ebdf3f69043478.png);
         background-size: 50px 600px
     }
     .zurb-benefits .work .work-icons h4 {
-        background-image: url(//zurb.com/assets/zurb/benefits/work-icons-retina-8e07ba286b0518137e302876763cb8b1.png);
+        background-image: url(//galtec.org/assets/zurb/benefits/work-icons-retina-8e07ba286b0518137e302876763cb8b1.png);
         background-size: 50px 1200px
     }
     .home-icons {
-        background-image: url(//zurb.com/assets/services/icons/well-help-you-build-it-retina-ea218302352359ec24a8b9c8a3ff6b2c.png);
+        background-image: url(//galtec.org/assets/services/icons/well-help-you-build-it-retina-ea218302352359ec24a8b9c8a3ff6b2c.png);
         background-size: 60px 600px
     }
     .process-icons {
-        background-image: url(//zurb.com/assets/services/icons/design-process-retina-c8a27eb54b3f9ae2172af6b0d4d488a2.png);
+        background-image: url(//galtec.org/assets/services/icons/design-process-retina-c8a27eb54b3f9ae2172af6b0d4d488a2.png);
         background-size: 124px 2500px
     }
     .services-map {
-        background-image: url(//zurb.com/assets/zurb/illustrations/campbell-map-retina-9bd4b1212f5a51e2618c06e332817f6c.jpg);
+        background-image: url(//galtec.org/assets/zurb/illustrations/campbell-map-retina-9bd4b1212f5a51e2618c06e332817f6c.jpg);
         background-size: 1950px 505px
     }
     .infographic.dog {
-        background-image: url(//zurb.com/assets/zurb/icons/cat-dog-retina-eda541c548ca16532e06ff0b1dd3e061.png);
+        background-image: url(//galtec.org/assets/zurb/icons/cat-dog-retina-eda541c548ca16532e06ff0b1dd3e061.png);
         background-size: 40px 100px
     }
     .infographic.cat {
-        background-image: url(//zurb.com/assets/zurb/icons/cat-dog-retina-eda541c548ca16532e06ff0b1dd3e061.png);
+        background-image: url(//galtec.org/assets/zurb/icons/cat-dog-retina-eda541c548ca16532e06ff0b1dd3e061.png);
         background-size: 40px 100px
     }
     .infographic.coffee {
-        background-image: url(//zurb.com/assets/zurb/icons/coffee-tea-retina-2fcab4b51e0127ec4445917468b33981.png);
+        background-image: url(//galtec.org/assets/zurb/icons/coffee-tea-retina-2fcab4b51e0127ec4445917468b33981.png);
         background-size: 40px 100px
     }
     .infographic.tea {
-        background-image: url(//zurb.com/assets/zurb/icons/coffee-tea-retina-2fcab4b51e0127ec4445917468b33981.png);
+        background-image: url(//galtec.org/assets/zurb/icons/coffee-tea-retina-2fcab4b51e0127ec4445917468b33981.png);
         background-size: 40px 100px
     }
     blockquote {
-        background-image: url(//zurb.com/assets/services/icons/blockquote-retina-e6b5591815ca9a5ce31c4953b1b4108c.png);
+        background-image: url(//galtec.org/assets/services/icons/blockquote-retina-e6b5591815ca9a5ce31c4953b1b4108c.png);
         background-size: 30px 500px
     }
     .california-map {
-        background-image: url(//zurb.com/assets/zurb/illustrations/map-retina-8fce7ed91c1a37b6b366e63691215c04.png);
+        background-image: url(//galtec.org/assets/zurb/illustrations/map-retina-8fce7ed91c1a37b6b366e63691215c04.png);
         background-size: 3000px 643px
     }
     .california-map.services {
-        background-image: url(//zurb.com/assets/services/illustrations/california-map-retina-8271c64d5d258c04d629965b04c5d63e.png);
+        background-image: url(//galtec.org/assets/services/illustrations/california-map-retina-8271c64d5d258c04d629965b04c5d63e.png);
         background-size: 3000px 643px
     }
     .fav-tweet {
-        background-image: url(//zurb.com/assets/services/icons/twitter-retina-2a4c82748bedaa29f106d01fe1cf42bf.png);
+        background-image: url(//galtec.org/assets/services/icons/twitter-retina-2a4c82748bedaa29f106d01fe1cf42bf.png);
         background-size: 37px 500px
     }
     .zurb-footer-top .global .footer-link-block {
-        background-image: url(//zurb.com/assets/icons/footer-icons-retina-2cfcc98ca8962050f8fdaca1561d22ad.png) no-repeat;
+        background-image: url(//galtec.org/assets/icons/footer-icons-retina-2cfcc98ca8962050f8fdaca1561d22ad.png) no-repeat;
         background-size: 24px 22px
     }
     .zurb-footer-top .property .learn-links, .zurb-footer-top .property .support-links, .zurb-footer-top .property .connect-links {
-        background-image: url(//zurb.com/assets/icons/footer-top-icons-retina-a3f58163f7d02ab361e72aefe365f546.png) no-repeat;
+        background-image: url(//galtec.org/assets/icons/footer-top-icons-retina-a3f58163f7d02ab361e72aefe365f546.png) no-repeat;
         background-size: 100px 1400px
     }
     .zurb-footer-bottom a.zurb-logo {
-        background-image: url(//zurb.com/assets/icons/footer-icons-retina-2cfcc98ca8962050f8fdaca1561d22ad.png) no-repeat;
+        background-image: url(//galtec.org/assets/icons/footer-icons-retina-2cfcc98ca8962050f8fdaca1561d22ad.png) no-repeat;
         background-size: 100px 1400px
     }
     .zurb-footer-bottom ul.home-social li a {
-        background-image: url(//zurb.com/assets/icons/social-retina-903a2058f2c95e920bac9d2d0ee52a20.png) no-repeat;
+        background-image: url(//galtec.org/assets/icons/social-retina-903a2058f2c95e920bac9d2d0ee52a20.png) no-repeat;
         background-size: 50px 600px
     }
     .to-expect {
-        background-image: url(//zurb.com/assets/icons/to-expect-retina-2a5060e2df5b847d20f4246aa96169e6.png) no-repeat;
+        background-image: url(//galtec.org/assets/icons/to-expect-retina-2a5060e2df5b847d20f4246aa96169e6.png) no-repeat;
         background-size: 150px 2000px
     }
     .bandwagon {
-        background-image: url(//zurb.com/assets/icons/event-bandwagon-retina-84b3a8429491a374faa8ebe5ddc6c97a.png) no-repeat;
+        background-image: url(//galtec.org/assets/icons/event-bandwagon-retina-84b3a8429491a374faa8ebe5ddc6c97a.png) no-repeat;
         background-size: 50px 900px
     }
 }
@@ -9760,7 +9760,7 @@ ul.events-list li a span.type, ul.events-list-bottom li a span.type {
     font-size: 0.875em;
     font-family: "Proxima Nova Condensed Bold", "Proxima Nova Condensed", "proxima-nova-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: -5px 0 10px;
-    background: url(//zurb.com/assets/icons/event-icons-14c3a3d49d01caf0851a14b316d2ea2a.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/icons/event-icons-14c3a3d49d01caf0851a14b316d2ea2a.png) no-repeat 0 0;
     padding-left: 20px;
     text-transform: uppercase
 }
@@ -10223,7 +10223,7 @@ img.mobileiron-move {
 }
 
 .mobileiron-sketches {
-    background: url(//zurb.com/assets/case-studies/mobileiron/mi-screen-sketches-df3db528855bab3b2565d2e415b937ce.jpg);
+    background: url(//galtec.org/assets/case-studies/mobileiron/mi-screen-sketches-df3db528855bab3b2565d2e415b937ce.jpg);
     background-repeat: repeat-x;
     margin: 10px;
     background-size: 740px;
@@ -10238,7 +10238,7 @@ img.mobileiron-move {
 }
 
 .darby {
-    background: url(//zurb.com/assets/case-studies/darby/chevron-c9db04c17837f2dfe1ce49e03625818d.jpg);
+    background: url(//galtec.org/assets/case-studies/darby/chevron-c9db04c17837f2dfe1ce49e03625818d.jpg);
     padding: 50px 0 0 0;
     border-top: 5px solid #00aed9;
     overflow: hidden;
@@ -10310,7 +10310,7 @@ img.mobileiron-move {
 }
 
 .announcement.ensenda {
-    background: url(//zurb.com/assets/case-studies/ensenda/header-bkgd-74d556c6d795a5d2e92beb1e41d85304.jpg) no-repeat center top #f0f1f3;
+    background: url(//galtec.org/assets/case-studies/ensenda/header-bkgd-74d556c6d795a5d2e92beb1e41d85304.jpg) no-repeat center top #f0f1f3;
     padding: 50px 0;
     background-size: cover;
     overflow: hidden
@@ -10336,7 +10336,7 @@ img.mobileiron-move {
 
 .ensenda-wires {
     min-height: 300px;
-    background: url(//zurb.com/assets/case-studies/ensenda/wireframes-4f0cdd8f791607c8d2fbe5dc1dfded32.jpg) no-repeat center top;
+    background: url(//galtec.org/assets/case-studies/ensenda/wireframes-4f0cdd8f791607c8d2fbe5dc1dfded32.jpg) no-repeat center top;
     background-size: cover;
     margin: 30px 0 20px
 }
@@ -10348,7 +10348,7 @@ img.mobileiron-move {
 }
 
 .ensenda.callout {
-    background: url(//zurb.com/assets/case-studies/ensenda/final-bkgd-12c5579d88cce1f13a5dbf4672f26de1.jpg) no-repeat center top #5c6164;
+    background: url(//galtec.org/assets/case-studies/ensenda/final-bkgd-12c5579d88cce1f13a5dbf4672f26de1.jpg) no-repeat center top #5c6164;
     padding-bottom: 0;
     background-size: cover
 }
@@ -10379,7 +10379,7 @@ img.mobileiron-move {
 }
 
 .announcement.limoney {
-    background: url(//zurb.com/assets/case-studies/limoney/header-bkgd-219132cbe4fceb2bc408649669da9899.jpg) no-repeat center top #070809;
+    background: url(//galtec.org/assets/case-studies/limoney/header-bkgd-219132cbe4fceb2bc408649669da9899.jpg) no-repeat center top #070809;
     padding: 0 0 50px;
     background-size: cover;
     overflow: hidden;
@@ -10522,18 +10522,18 @@ ul.sketches li img {
 }
 
 .britney-spears {
-    background: url(//zurb.com/assets/case-studies/britney/header-background-753162d1091f851dc7b5ea04d48ff0d0.jpg) no-repeat center center #1463aa
+    background: url(//galtec.org/assets/case-studies/britney/header-background-753162d1091f851dc7b5ea04d48ff0d0.jpg) no-repeat center center #1463aa
 }
 
 .britney-spears .second-bg {
-    background: url(//zurb.com/assets/case-studies/britney/chain-090990aabfd67f79150efb882844b98e.png);
+    background: url(//galtec.org/assets/case-studies/britney/chain-090990aabfd67f79150efb882844b98e.png);
     background-size: 13px 741px;
     padding: 105px 0 125px
 }
 
 @media only screen and (min-width: 768px) {
     .britney-spears h1 {
-        background: url(//zurb.com/assets/case-studies/britney/title-f68d31fba6fec91a93d062cd32cba9df.png) no-repeat center center;
+        background: url(//galtec.org/assets/case-studies/britney/title-f68d31fba6fec91a93d062cd32cba9df.png) no-repeat center center;
         background-size: 804px 81px;
         height: 81px;
         width: 804px;
@@ -10560,7 +10560,7 @@ ul.sketches li img {
 }
 
 .britney-wireframes {
-    background: url(//zurb.com/assets/case-studies/britney/britney-lofi-wireframes-412aade233ed9740f1eda4d6b51fcb71.png) center center no-repeat;
+    background: url(//galtec.org/assets/case-studies/britney/britney-lofi-wireframes-412aade233ed9740f1eda4d6b51fcb71.png) center center no-repeat;
     background-size: 1155px 438px
 }
 
@@ -10579,7 +10579,7 @@ ul.sketches li img {
 }
 
 .cs-quote.britney-quote {
-    background: url(//zurb.com/assets/case-studies/britney/britney-sig-9ca8b4480054551981f9f87a2fc5c126.png) no-repeat right bottom;
+    background: url(//galtec.org/assets/case-studies/britney/britney-sig-9ca8b4480054551981f9f87a2fc5c126.png) no-repeat right bottom;
     background-size: 269px 173px;
     margin-top: 50px;
     padding: 37px 0;
@@ -10604,7 +10604,7 @@ ul.sketches li img {
 }
 
 .announcement.paysa {
-    background: url(//zurb.com/assets/case-studies/paysa/header-bkgd-a30e85e1706c4b51a4c105c39e025aca.jpg) no-repeat center top #070809;
+    background: url(//galtec.org/assets/case-studies/paysa/header-bkgd-a30e85e1706c4b51a4c105c39e025aca.jpg) no-repeat center top #070809;
     background-size: cover;
     overflow: hidden
 }
@@ -10758,7 +10758,7 @@ blockquote.borealis-quote {
 }
 
 .wireframe-bg {
-    background: url(//zurb.com/assets/case-studies/borealis/wireframe-bg-4cf0dca828ba81c720a9db0da5bda3af.jpg) center center no-repeat;
+    background: url(//galtec.org/assets/case-studies/borealis/wireframe-bg-4cf0dca828ba81c720a9db0da5bda3af.jpg) center center no-repeat;
     background-size: 1251px 532px;
     margin: 20px 0 0
 }
@@ -10768,7 +10768,7 @@ blockquote.borealis-quote {
 }
 
 .terracotta {
-    background: url(//zurb.com/assets/case-studies/terracotta/header-bg-84c5b49ff9e787b2f012034ce799f85f.jpg) center center;
+    background: url(//galtec.org/assets/case-studies/terracotta/header-bg-84c5b49ff9e787b2f012034ce799f85f.jpg) center center;
     background-size: cover;
     margin-bottom: 50px;
     padding: 120px 0
@@ -10802,7 +10802,7 @@ blockquote.borealis-quote {
     display: block;
     padding-left: 240px;
     font-size: 13px;
-    background: url(//zurb.com/assets/case-studies/terracotta/controlled-61f4e39431abd161d94e73ec2337de34.jpg) 0 0 no-repeat;
+    background: url(//galtec.org/assets/case-studies/terracotta/controlled-61f4e39431abd161d94e73ec2337de34.jpg) 0 0 no-repeat;
     background-size: 250px 1800px;
     margin-bottom: 40px;
     min-height: 40px
@@ -10883,7 +10883,7 @@ blockquote.terracotta-quote {
 }
 
 .roadmap-container ul li h6 span {
-    background: url(//zurb.com/assets/case-studies/terracotta/highlight-afb4dfae9627b23ef7aba0e035f1bb36.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/case-studies/terracotta/highlight-afb4dfae9627b23ef7aba0e035f1bb36.png) no-repeat 0 0;
     background-size: cover
 }
 
@@ -11071,7 +11071,7 @@ div#wistia_kxtqw6fb7c.wistia_embed {
     margin-left: -30px;
     position: absolute;
     bottom: 0px;
-    background: url(//zurb.com/assets/services/icons/pause-play-ada9c5fa4f5a7393e353c76eb1bb2d86.png) no-repeat center -3px;
+    background: url(//galtec.org/assets/services/icons/pause-play-ada9c5fa4f5a7393e353c76eb1bb2d86.png) no-repeat center -3px;
     background-size: 60px 121px;
     opacity: .6;
     background-position: center -64px;
@@ -11135,7 +11135,7 @@ div#wistia_kxtqw6fb7c.wistia_embed {
 }
 
 .touch .main-header.services {
-    background: url(//zurb.com/assets/services/photos/video-preview-93767e06704164a49cee3b8e10ef0593.jpg) no-repeat center center fixed;
+    background: url(//galtec.org/assets/services/photos/video-preview-93767e06704164a49cee3b8e10ef0593.jpg) no-repeat center center fixed;
     background-size: cover
 }
 
@@ -11156,7 +11156,7 @@ div#wistia_kxtqw6fb7c.wistia_embed {
         display: block
     }
     .main-header.services {
-        background: url(//zurb.com/assets/services/photos/video-preview-93767e06704164a49cee3b8e10ef0593.jpg) no-repeat center center fixed;
+        background: url(//galtec.org/assets/services/photos/video-preview-93767e06704164a49cee3b8e10ef0593.jpg) no-repeat center center fixed;
         background-size: cover
     }
     .main-header.services h1 {
@@ -11184,7 +11184,7 @@ div#wistia_kxtqw6fb7c.wistia_embed {
         margin-top: 50px
     }
     .think-five .sketch {
-        background: url(//zurb.com/assets/services/sketches/sketch-1-954a884c47dc2e69ddf53823f7cb0763.jpg) no-repeat center center;
+        background: url(//galtec.org/assets/services/sketches/sketch-1-954a884c47dc2e69ddf53823f7cb0763.jpg) no-repeat center center;
         background-size: cover;
         width: 360px;
         height: 259px;
@@ -11194,7 +11194,7 @@ div#wistia_kxtqw6fb7c.wistia_embed {
         z-index: -1
     }
     .think-five .sketch-2 {
-        background: url(//zurb.com/assets/services/sketches/sketch-2-11b4f98bf0c5c90b778a79744a903a5f.jpg) no-repeat center center;
+        background: url(//galtec.org/assets/services/sketches/sketch-2-11b4f98bf0c5c90b778a79744a903a5f.jpg) no-repeat center center;
         background-size: cover;
         width: 355px;
         height: 628px;
@@ -11204,7 +11204,7 @@ div#wistia_kxtqw6fb7c.wistia_embed {
         top: 120px
     }
     .work-efficiently .sketch {
-        background: url(//zurb.com/assets/services/sketches/sketch-3-039c2717129963bc10942a2653b04a9c.jpg) no-repeat center center;
+        background: url(//galtec.org/assets/services/sketches/sketch-3-039c2717129963bc10942a2653b04a9c.jpg) no-repeat center center;
         background-size: cover;
         width: 378px;
         height: 251px;
@@ -11217,7 +11217,7 @@ div#wistia_kxtqw6fb7c.wistia_embed {
         position: relative
     }
     .t-shaped .sketch {
-        background: url(//zurb.com/assets/services/sketches/quote-bubble-298fa9027c8d04fc8974e40953b71852.jpg) no-repeat center center;
+        background: url(//galtec.org/assets/services/sketches/quote-bubble-298fa9027c8d04fc8974e40953b71852.jpg) no-repeat center center;
         background-size: cover;
         width: 81px;
         height: 79px;
@@ -11480,8 +11480,8 @@ div#wistia_kxtqw6fb7c.wistia_embed {
 
 @font-face {
     font-family: "foundation-icons";
-    src: url(//zurb.com/assets/foundation-icons-79cc8b3e2201da31207527018f74c7c1.eot);
-    src: url(//zurb.com/assets/foundation-icons.eot?#iefix) format("embedded-opentype"), url(//zurb.com/assets/foundation-icons-713671ff2d3af56d4164cc33ec664054.woff) format("woff"), url(//zurb.com/assets/foundation-icons-b1f82c8a819decc3d2832e7898dc57da.ttf) format("truetype"), url(//zurb.com/assets/foundation-icons.svg#fontcustom) format("svg");
+    src: url(//galtec.org/assets/foundation-icons-79cc8b3e2201da31207527018f74c7c1.eot);
+    src: url(//galtec.org/assets/foundation-icons.eot?#iefix) format("embedded-opentype"), url(//galtec.org/assets/foundation-icons-713671ff2d3af56d4164cc33ec664054.woff) format("woff"), url(//galtec.org/assets/foundation-icons-b1f82c8a819decc3d2832e7898dc57da.ttf) format("truetype"), url(//galtec.org/assets/foundation-icons.svg#fontcustom) format("svg");
     font-weight: normal;
     font-style: normal
 }
@@ -12775,22 +12775,22 @@ div#wistia_kxtqw6fb7c.wistia_embed {
 }
 
 .interior-header.approach {
-    background: url(//zurb.com/assets/services/bkgd2-1e7a91e3dfe3832de2740c4069e302b8.jpg) no-repeat 0 0;
+    background: url(//galtec.org/assets/services/bkgd2-1e7a91e3dfe3832de2740c4069e302b8.jpg) no-repeat 0 0;
     background-size: cover
 }
 
 .interior-header.work {
-    background: url(//zurb.com/assets/services/bkgd3-768cc497da5d3031602a588524838c98.jpg) no-repeat 0 0;
+    background: url(//galtec.org/assets/services/bkgd3-768cc497da5d3031602a588524838c98.jpg) no-repeat 0 0;
     background-size: cover
 }
 
 .interior-header.about {
-    background: url(//zurb.com/assets/services/bkgd4-bcbc5fb51b7b05c983fc55e5209a6688.jpg) no-repeat 0 bottom;
+    background: url(//galtec.org/assets/services/bkgd4-bcbc5fb51b7b05c983fc55e5209a6688.jpg) no-repeat 0 bottom;
     background-size: cover
 }
 
 .interior-header.contact {
-    background: url(//zurb.com/assets/services/bkgd8-234fec69cd83d3056cceb02bad98c9f1.jpg) no-repeat 0 0;
+    background: url(//galtec.org/assets/services/bkgd8-234fec69cd83d3056cceb02bad98c9f1.jpg) no-repeat 0 0;
     background-size: cover
 }
 
@@ -12801,23 +12801,23 @@ blockquote {
 }
 
 blockquote.studios.quote.one {
-    background: url(//zurb.com/assets/services/elements/quotes/quotes-1-64372346656df7c2defe71ef2b4a7961.svg) no-repeat right 0;
+    background: url(//galtec.org/assets/services/elements/quotes/quotes-1-64372346656df7c2defe71ef2b4a7961.svg) no-repeat right 0;
     background-size: 9em 2em
 }
 
 blockquote.studios.quote.two {
-    background: url(//zurb.com/assets/services/elements/quotes/quotes-2-b31770b11d9771f498332716f08ad6c4.svg) no-repeat right 0;
+    background: url(//galtec.org/assets/services/elements/quotes/quotes-2-b31770b11d9771f498332716f08ad6c4.svg) no-repeat right 0;
     background-size: 2em
 }
 
 blockquote.studios.quote.three {
-    background: url(//zurb.com/assets/services/elements/quotes/quotes-3-0c927edd1ffb6f55e7e477bb0bf43e2f.svg) no-repeat right 0;
+    background: url(//galtec.org/assets/services/elements/quotes/quotes-3-0c927edd1ffb6f55e7e477bb0bf43e2f.svg) no-repeat right 0;
     padding-top: 3px;
     background-size: 2em
 }
 
 blockquote.studios.quote.four {
-    background: url(//zurb.com/assets/services/elements/quotes/quotes-4-6342b6afda363afc7aa8798e311d4821.svg) no-repeat right 0;
+    background: url(//galtec.org/assets/services/elements/quotes/quotes-4-6342b6afda363afc7aa8798e311d4821.svg) no-repeat right 0;
     background-size: 2em
 }
 
@@ -12830,7 +12830,7 @@ blockquote.studios.quote.four {
 }
 
 .lightbulb.one {
-    background: url(//zurb.com/assets/services/elements/lightbulb/lightbulb-1-9da967271be786df920ff6cf8cd129dd.svg) no-repeat 0 0;
+    background: url(//galtec.org/assets/services/elements/lightbulb/lightbulb-1-9da967271be786df920ff6cf8cd129dd.svg) no-repeat 0 0;
     background-size: 4em;
     height: 5em;
     width: 5em
@@ -12841,7 +12841,7 @@ blockquote.studios.quote.four {
 }
 
 .star.one {
-    background: url(//zurb.com/assets/services/elements/star/star-1-081e23f107486bd2b32e9ed3920e7549.svg) no-repeat 0 0;
+    background: url(//galtec.org/assets/services/elements/star/star-1-081e23f107486bd2b32e9ed3920e7549.svg) no-repeat 0 0;
     background-size: 4em;
     height: 5em;
     width: 5em
@@ -12981,7 +12981,7 @@ blockquote.studios.quote.four {
 }
 
 .whatwedo .strategy {
-    background: url(//zurb.com/assets/services/home-design-strategy-dd7d02b4d30aab4475797d2705c65419.svg) no-repeat 0 -0.5em;
+    background: url(//galtec.org/assets/services/home-design-strategy-dd7d02b4d30aab4475797d2705c65419.svg) no-repeat 0 -0.5em;
     background-size: 5.5em
 }
 
@@ -12992,7 +12992,7 @@ blockquote.studios.quote.four {
 }
 
 .whatwedo .interaction {
-    background: url(//zurb.com/assets/services/home-interaction-design1-f910db32dd2d163fdfc7af3eadcc490d.svg) no-repeat 0.5em -0.25em;
+    background: url(//galtec.org/assets/services/home-interaction-design1-f910db32dd2d163fdfc7af3eadcc490d.svg) no-repeat 0.5em -0.25em;
     background-size: 5.5em
 }
 
@@ -13003,7 +13003,7 @@ blockquote.studios.quote.four {
 }
 
 .whatwedo .interface {
-    background: url(//zurb.com/assets/services/home-interface-design1-2a6fb3eb7c43514d05a67c51a7f1b18b.svg) no-repeat 0.5em -0.5em;
+    background: url(//galtec.org/assets/services/home-interface-design1-2a6fb3eb7c43514d05a67c51a7f1b18b.svg) no-repeat 0.5em -0.5em;
     background-size: 5.5em
 }
 
@@ -13026,7 +13026,7 @@ blockquote.studios.quote.four {
 }
 
 .blog-feature.studios ul li.one {
-    background: url(//zurb.com/assets/services/elements/line/vline-2-b656c83dfbd33cd41f32d556d3695641.svg) no-repeat 0 right
+    background: url(//galtec.org/assets/services/elements/line/vline-2-b656c83dfbd33cd41f32d556d3695641.svg) no-repeat 0 right
 }
 
 .hero h2 {
@@ -13114,42 +13114,42 @@ blockquote.studios.quote.four {
 }
 
 .cs.img.mobileiron {
-    background: url(//zurb.com/assets/services/our-work/img-5c8695436bf6f3122ffc048410ae9dd6.jpg) no-repeat 0 0;
+    background: url(//galtec.org/assets/services/our-work/img-5c8695436bf6f3122ffc048410ae9dd6.jpg) no-repeat 0 0;
     background-size: cover
 }
 
 .cs.img.terra {
-    background: url(//zurb.com/assets/services/our-work/bkgds/terracotta-0001cbe3086e0d3ab2a3f31284779bbd.jpg) no-repeat 0 0;
+    background: url(//galtec.org/assets/services/our-work/bkgds/terracotta-0001cbe3086e0d3ab2a3f31284779bbd.jpg) no-repeat 0 0;
     background-size: 140%
 }
 
 .cs.img.britney {
-    background: url(//zurb.com/assets/services/our-work/bkgds/britney-f3dabc95223e8b631e31e4af18ddb249.jpg) no-repeat center 0;
+    background: url(//galtec.org/assets/services/our-work/bkgds/britney-f3dabc95223e8b631e31e4af18ddb249.jpg) no-repeat center 0;
     background-size: cover
 }
 
 .cs.img.darbysmart {
-    background: url(//zurb.com/assets/services/our-work/bkgds/darbysmart-0997ea18f303a96c2b4fe7d42748ed25.jpg) no-repeat right 0;
+    background: url(//galtec.org/assets/services/our-work/bkgds/darbysmart-0997ea18f303a96c2b4fe7d42748ed25.jpg) no-repeat right 0;
     background-size: cover
 }
 
 .cs.img.limoney {
-    background: url(//zurb.com/assets/services/our-work/bkgds/limoney-16b4f1ce5e56147856aabab127f10cc3.jpg) no-repeat center 0;
+    background: url(//galtec.org/assets/services/our-work/bkgds/limoney-16b4f1ce5e56147856aabab127f10cc3.jpg) no-repeat center 0;
     background-size: cover
 }
 
 .cs.img.grandjunction {
-    background: url(//zurb.com/assets/services/our-work/bkgds/grandjunction-7a72b67e3a14598c44eed2654c099b9f.jpg) no-repeat 0 0;
+    background: url(//galtec.org/assets/services/our-work/bkgds/grandjunction-7a72b67e3a14598c44eed2654c099b9f.jpg) no-repeat 0 0;
     background-size: cover
 }
 
 .cs.img.borealis {
-    background: url(//zurb.com/assets/services/our-work/bkgds/borealis-2d6464c3590bb9f2322a05ed3ff8d39a.jpg) no-repeat 0 0;
+    background: url(//galtec.org/assets/services/our-work/bkgds/borealis-2d6464c3590bb9f2322a05ed3ff8d39a.jpg) no-repeat 0 0;
     background-size: cover
 }
 
 .cs.img.mcafee {
-    background: url(//zurb.com/assets/services/our-work/bkgds/mcafee-9638d4271072599ba2e12bd9f5c402a2.jpg) no-repeat left 0;
+    background: url(//galtec.org/assets/services/our-work/bkgds/mcafee-9638d4271072599ba2e12bd9f5c402a2.jpg) no-repeat left 0;
     background-size: 213%
 }
 
@@ -13335,23 +13335,23 @@ blockquote.studios.quote.four {
         padding: 0 0 0 6em
     }
     .process-phases li.define {
-        background: url(//zurb.com/assets/services/design-process-define-e61922c49c21cb835ded349ee9e9e9e8.svg) no-repeat 0 -10px;
+        background: url(//galtec.org/assets/services/design-process-define-e61922c49c21cb835ded349ee9e9e9e8.svg) no-repeat 0 -10px;
         background-size: 90px
     }
     .process-phases li.ideate {
-        background: url(//zurb.com/assets/services/design-process-ideate-3196b62089a433c9945d7d4d94b3ce47.svg) no-repeat 0 -10px;
+        background: url(//galtec.org/assets/services/design-process-ideate-3196b62089a433c9945d7d4d94b3ce47.svg) no-repeat 0 -10px;
         background-size: 90px
     }
     .process-phases li.prototype {
-        background: url(//zurb.com/assets/services/design-process-prototype-9b22f7c5767f01dff04ad10147ab94ff.svg) no-repeat 0 -10px;
+        background: url(//galtec.org/assets/services/design-process-prototype-9b22f7c5767f01dff04ad10147ab94ff.svg) no-repeat 0 -10px;
         background-size: 90px
     }
     .process-phases li.build {
-        background: url(//zurb.com/assets/services/design-process-build-c721af0dfdd611b51b3f433213443892.svg) no-repeat 0 -10px;
+        background: url(//galtec.org/assets/services/design-process-build-c721af0dfdd611b51b3f433213443892.svg) no-repeat 0 -10px;
         background-size: 90px
     }
     .process-phases li.analyze {
-        background: url(//zurb.com/assets/services/design-process-analyze-936b3a725fca8f79dc2f0f39e9eb657b.svg) no-repeat 0 -10px;
+        background: url(//galtec.org/assets/services/design-process-analyze-936b3a725fca8f79dc2f0f39e9eb657b.svg) no-repeat 0 -10px;
         background-size: 90px
     }
 }
@@ -13374,19 +13374,19 @@ blockquote.studios.quote.four {
         background-size: 40px
     }
     .secret-sauce li.one {
-        background: url(//zurb.com/assets/services/elements/numbers/1-3e588db36b8f471d7f0b1cf87d120394.svg) no-repeat 4px -2px
+        background: url(//galtec.org/assets/services/elements/numbers/1-3e588db36b8f471d7f0b1cf87d120394.svg) no-repeat 4px -2px
     }
     .secret-sauce li.two {
-        background: url(//zurb.com/assets/services/elements/numbers/2-ec54f147bf3052f5a023a9fce20ecdc2.svg) no-repeat 4px -2px
+        background: url(//galtec.org/assets/services/elements/numbers/2-ec54f147bf3052f5a023a9fce20ecdc2.svg) no-repeat 4px -2px
     }
     .secret-sauce li.three {
-        background: url(//zurb.com/assets/services/elements/numbers/3-4feaa34ebc710b1e7c919f76cc6175ef.svg) no-repeat 4px -2px
+        background: url(//galtec.org/assets/services/elements/numbers/3-4feaa34ebc710b1e7c919f76cc6175ef.svg) no-repeat 4px -2px
     }
     .secret-sauce li.four {
-        background: url(//zurb.com/assets/services/elements/numbers/4-4f92505f19d6e0556e7b65cb0b10ae58.svg) no-repeat 4px -2px
+        background: url(//galtec.org/assets/services/elements/numbers/4-4f92505f19d6e0556e7b65cb0b10ae58.svg) no-repeat 4px -2px
     }
     .secret-sauce li.five {
-        background: url(//zurb.com/assets/services/elements/numbers/5-8e86e3ea4a848e0be804e5ed6aff346c.svg) no-repeat 4px -2px
+        background: url(//galtec.org/assets/services/elements/numbers/5-8e86e3ea4a848e0be804e5ed6aff346c.svg) no-repeat 4px -2px
     }
 }
 
@@ -13605,7 +13605,7 @@ blockquote.studios.quote.four {
 }
 
 .sparks-feed li .new:after {
-    content: url(//zurb.com/assets/services/elements/star/sparks-4946bd72145259ca9864ba2505f0355f.svg);
+    content: url(//galtec.org/assets/services/elements/star/sparks-4946bd72145259ca9864ba2505f0355f.svg);
     position: absolute;
     left: -32px;
     top: -30px
@@ -13726,22 +13726,22 @@ blockquote.studios.quote.four {
 }
 
 .contact-info .small-icon-messaging.call {
-    background: url(//zurb.com/assets/services/contact-call-7f3781730d4e5e2d72201f4103db391a.svg) no-repeat -30px 15px;
+    background: url(//galtec.org/assets/services/contact-call-7f3781730d4e5e2d72201f4103db391a.svg) no-repeat -30px 15px;
     background-size: 130px 70px
 }
 
 .contact-info .small-icon-messaging.email {
-    background: url(//zurb.com/assets/services/contact-email-b66dd5e0227298c1f80779e5ec7eb9a6.svg) no-repeat -65px 15px;
+    background: url(//galtec.org/assets/services/contact-email-b66dd5e0227298c1f80779e5ec7eb9a6.svg) no-repeat -65px 15px;
     background-size: 205px 55px
 }
 
 .contact-info .small-icon-messaging.visit {
-    background: url(//zurb.com/assets/services/contact-visit-6442a6a0d70661594876a811e4ad5fff.svg) no-repeat 0 15px;
+    background: url(//galtec.org/assets/services/contact-visit-6442a6a0d70661594876a811e4ad5fff.svg) no-repeat 0 15px;
     background-size: 70px
 }
 
 .contact-info .small-icon-messaging.biz-dev-profile {
-    background: url(//zurb.com/assets/services/startups/christie-profile-6532dacbb0ad5c91507c48c0586d03f0.png) no-repeat 5px 20px;
+    background: url(//galtec.org/assets/services/startups/christie-profile-6532dacbb0ad5c91507c48c0586d03f0.png) no-repeat 5px 20px;
     background-size: 65px
 }
 
@@ -13882,19 +13882,19 @@ blockquote.studios.quote.four {
 }
 
 .why-it-works .why.arrow.one {
-    background: url(//zurb.com/assets/services/elements/arrow/arrow-1-1772b559dfd0176cca981c85889da9fb.svg) no-repeat no-repeat 0px -4px;
+    background: url(//galtec.org/assets/services/elements/arrow/arrow-1-1772b559dfd0176cca981c85889da9fb.svg) no-repeat no-repeat 0px -4px;
     background-size: 60px;
     padding-top: 10px
 }
 
 .why-it-works .why.arrow.two {
-    background: url(//zurb.com/assets/services/elements/arrow/arrow-2-0abac0301cbb9fbc817ebabcc534a015.svg) no-repeat no-repeat 0px -4px;
+    background: url(//galtec.org/assets/services/elements/arrow/arrow-2-0abac0301cbb9fbc817ebabcc534a015.svg) no-repeat no-repeat 0px -4px;
     background-size: 60px;
     padding-top: 10px
 }
 
 .why-it-works .why.arrow.three {
-    background: url(//zurb.com/assets/services/elements/arrow/arrow-4-7be833f0cebc4df6856665483a1a4aea.svg) no-repeat 0px -4px;
+    background: url(//galtec.org/assets/services/elements/arrow/arrow-4-7be833f0cebc4df6856665483a1a4aea.svg) no-repeat 0px -4px;
     background-size: 60px;
     padding-top: 10px
 }
@@ -14014,34 +14014,34 @@ blockquote.studios.quote.four {
 }
 
 .startup-hero.studios-banner {
-    background: url(//zurb.com/assets/services/studios-banner-f7efc46106a8f1337a7e9aedb9847b02.jpg) no-repeat center center #1d7f8a;
+    background: url(//galtec.org/assets/services/studios-banner-f7efc46106a8f1337a7e9aedb9847b02.jpg) no-repeat center center #1d7f8a;
     background-size: cover
 }
 
 .startup-hero.signup-banner {
     padding-top: 120px;
     background-size: cover;
-    background: url(//zurb.com/assets/services/startups/startup-banner-3c5415c78064da11455c3ab9b352e04c.jpg) no-repeat center center #1d7f8a
+    background: url(//galtec.org/assets/services/startups/startup-banner-3c5415c78064da11455c3ab9b352e04c.jpg) no-repeat center center #1d7f8a
 }
 
 .startup-hero.about-banner {
     padding-top: 120px;
     background-size: cover;
-    background: url(//zurb.com/assets/services/small-business/small-biz-banner-0ad828cc220671a0cf87f01b43a30101.jpg) no-repeat center center #1d7f8a
+    background: url(//galtec.org/assets/services/small-business/small-biz-banner-0ad828cc220671a0cf87f01b43a30101.jpg) no-repeat center center #1d7f8a
 }
 
 .startup-hero.startup-banner {
-    background: url(//zurb.com/assets/services/startups/startup-banner-3c5415c78064da11455c3ab9b352e04c.jpg) no-repeat top center #1d7f8a;
+    background: url(//galtec.org/assets/services/startups/startup-banner-3c5415c78064da11455c3ab9b352e04c.jpg) no-repeat top center #1d7f8a;
     background-size: cover
 }
 
 .startup-hero.small-biz-banner {
-    background: url(//zurb.com/assets/services/small-business/small-biz-banner-0ad828cc220671a0cf87f01b43a30101.jpg) no-repeat top center #1d7f8a;
+    background: url(//galtec.org/assets/services/small-business/small-biz-banner-0ad828cc220671a0cf87f01b43a30101.jpg) no-repeat top center #1d7f8a;
     background-size: cover
 }
 
 .startup-hero.enterprise-banner {
-    background: url(//zurb.com/assets/services/enterprise/enterprise-banner-f31935ba6177c2f8b9385ea9689a9107.jpg) no-repeat top center #1d7f8a;
+    background: url(//galtec.org/assets/services/enterprise/enterprise-banner-f31935ba6177c2f8b9385ea9689a9107.jpg) no-repeat top center #1d7f8a;
     background-size: cover
 }
 
@@ -14079,7 +14079,7 @@ blockquote.studios.quote.four {
 
 .zurb-entrance-banner {
     margin-bottom: 4em;
-    background: url(//zurb.com/assets/services/startups/zurb-bg-cfc0eca9024ecf4ace4efd7a956a0146.jpg) no-repeat top center;
+    background: url(//galtec.org/assets/services/startups/zurb-bg-cfc0eca9024ecf4ace4efd7a956a0146.jpg) no-repeat top center;
     background-size: cover
 }
 
@@ -14190,7 +14190,7 @@ blockquote.studios.quote.four {
 }
 
 .blockquote.studios.quote-icon {
-    background: url(//zurb.com/assets/services/elements/quotes/quotes-1-64372346656df7c2defe71ef2b4a7961.svg) no-repeat top center;
+    background: url(//galtec.org/assets/services/elements/quotes/quotes-1-64372346656df7c2defe71ef2b4a7961.svg) no-repeat top center;
     background-size: 9em 2em
 }
 
@@ -14438,7 +14438,7 @@ a.studios-links:focus {
 .row.signup .image {
     width: 100%;
     height: 170px;
-    background: url(//zurb.com/assets/zurb/icons/z-stamp-dbb2f9a0fa29794f82010fac42905c78.png) no-repeat;
+    background: url(//galtec.org/assets/zurb/icons/z-stamp-dbb2f9a0fa29794f82010fac42905c78.png) no-repeat;
     background-position: top center;
     -webkit-transform: rotate(-12deg);
     -moz-transform: rotate(-12deg);
@@ -15062,39 +15062,39 @@ body div#nineWays .section-container.accordion p.title:hover {
 }
 
 body div#nineWays .section-container.accordion section.familiarity {
-    background: url(//zurb.com/assets/9ways/wedding-13c91d1a3bc4784eb9445e27f83b5c6c.jpg) #222 no-repeat center top
+    background: url(//galtec.org/assets/9ways/wedding-13c91d1a3bc4784eb9445e27f83b5c6c.jpg) #222 no-repeat center top
 }
 
 body div#nineWays .section-container.accordion section.relative {
-    background: url(//zurb.com/assets/9ways/relative-d40219d748be44ce4da95f86303cbd89.jpg) #222 no-repeat center top
+    background: url(//galtec.org/assets/9ways/relative-d40219d748be44ce4da95f86303cbd89.jpg) #222 no-repeat center top
 }
 
 body div#nineWays .section-container.accordion section.bandwagon {
-    background: url(//zurb.com/assets/9ways/bandwagon-0a5cfd2f2bdac6bc0740cc339712670b.jpg) #222 no-repeat center top
+    background: url(//galtec.org/assets/9ways/bandwagon-0a5cfd2f2bdac6bc0740cc339712670b.jpg) #222 no-repeat center top
 }
 
 body div#nineWays .section-container.accordion section.authority {
-    background: url(//zurb.com/assets/9ways/authority-eef7ec20e9fdcff7731576619ee5dc8a.jpg) #222 no-repeat center top
+    background: url(//galtec.org/assets/9ways/authority-eef7ec20e9fdcff7731576619ee5dc8a.jpg) #222 no-repeat center top
 }
 
 body div#nineWays .section-container.accordion section.faith {
-    background: url(//zurb.com/assets/9ways/faith-e22991bb98ebcd1819d6f42ccbfd4c68.jpg) #222 no-repeat center top
+    background: url(//galtec.org/assets/9ways/faith-e22991bb98ebcd1819d6f42ccbfd4c68.jpg) #222 no-repeat center top
 }
 
 body div#nineWays .section-container.accordion section.achievement {
-    background: url(//zurb.com/assets/9ways/achievement-13347bb52cbc74b67e44637f59a76e24.jpg) #222 no-repeat center top
+    background: url(//galtec.org/assets/9ways/achievement-13347bb52cbc74b67e44637f59a76e24.jpg) #222 no-repeat center top
 }
 
 body div#nineWays .section-container.accordion section.zeigarnik {
-    background: url(//zurb.com/assets/9ways/zeigarnik-4a5830dfd35fe72c140af1cf6e6147ab.jpg) #222 no-repeat center top
+    background: url(//galtec.org/assets/9ways/zeigarnik-4a5830dfd35fe72c140af1cf6e6147ab.jpg) #222 no-repeat center top
 }
 
 body div#nineWays .section-container.accordion section.self {
-    background: url(//zurb.com/assets/9ways/self-ddf53cf0f62a2b71dccf627c62a27275.jpg) #222 no-repeat center top
+    background: url(//galtec.org/assets/9ways/self-ddf53cf0f62a2b71dccf627c62a27275.jpg) #222 no-repeat center top
 }
 
 body div#nineWays .section-container.accordion section.surprise {
-    background: url(//zurb.com/assets/9ways/surprise-2cb353e8ea7a92356ebf00416918e8e5.jpg) #222 no-repeat center top
+    background: url(//galtec.org/assets/9ways/surprise-2cb353e8ea7a92356ebf00416918e8e5.jpg) #222 no-repeat center top
 }
 
 body div#nineWays .section-container.accordion>section.active>.title {
@@ -15381,7 +15381,7 @@ div#wistia_kxtqw6fb7c.wistia_embed {
 }
 
 .controls .slick-prev {
-    background: url(//zurb.com/assets/services/previous-eb27da500b09837b66782142b8a6bbe8.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/services/previous-eb27da500b09837b66782142b8a6bbe8.png) no-repeat 0 0;
     background-size: 20px;
     left: 10px
 }
@@ -15391,7 +15391,7 @@ div#wistia_kxtqw6fb7c.wistia_embed {
 }
 
 .controls .slick-next {
-    background: url(//zurb.com/assets/services/next-775efc8537f795fefb538e27fede7f3f.png) no-repeat 0 0;
+    background: url(//galtec.org/assets/services/next-775efc8537f795fefb538e27fede7f3f.png) no-repeat 0 0;
     background-size: 20px;
     right: 10px
 }
@@ -15475,7 +15475,7 @@ div#wistia_kxtqw6fb7c.wistia_embed {
     padding-top: 40px;
     padding-bottom: 50px;
     background-color: #efefef;
-    background: url(//zurb.com/assets/services/getstarted/startup-banner2-a6d22694ed3066a1ea2ce18524173ca0.jpg) no-repeat;
+    background: url(//galtec.org/assets/services/getstarted/startup-banner2-a6d22694ed3066a1ea2ce18524173ca0.jpg) no-repeat;
     background-size: cover
 }
 
