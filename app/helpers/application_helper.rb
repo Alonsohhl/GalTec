@@ -1,7 +1,7 @@
 module ApplicationHelper
   #corregir el titulo de las aplicaciones
   def SetTitle(pagetitle="")
-    basetitle="GalTec - Ideas en acción"
+    basetitle="GalTec - Ideas en Acción"
     if pagetitle.empty?
       basetitle
     else

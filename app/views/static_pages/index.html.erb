@@ -1,4 +1,3 @@
-<%provide(:title,"Inicio")%>
 
   <!-- header mio-->
 <%= render(:partial => "static_pages/menubar") %>
@@ -6,14 +5,14 @@
 <div class="main-header services home" style="overflow: hidden">
 <div class="text-overlay text-center">
   <div class="header-text">
-    <h1 class="light white-text text-center">Ideas en ACCIÓN</h1>
+    <h1 class="light white-text text-center">Ideas en <strong>Acción</strong></h1>
     <div class="row">
       <div class="large-8 columns large-centered text-center">
         <p class="lead white-text">
           <strong>Galtec</strong>
           Desarrollo Inteligente.
           <br>Nuestro equipo trabaja con pasión y compromiso para ofrecer lo mejor y acompañar el exito de nuestros clientes.</p>
-        <a href="https://wistia.sslcs.cdngc.net/deliveries/26a88bbc3265ed2385ee78bd332adebb32648da1/file.mp4" class="green button pause-play-button">Galtec en 30 segundos &rarr;</a>
+          <%= link_to("Ver mas de nuestros servicios→",services_path,class:"green button")%>
       </div>
     </div>
   </div>
