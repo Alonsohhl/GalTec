@@ -18,9 +18,13 @@
   </div>
   <a class="small button pause-video"></a>
 </div>
+<div class="video-wrapper show-for-small">
+  <%= image_tag("GalTec/Galtec-Banner-wologo.svg", alt:"Galtec logo" , style:"overflow:hidden; background: #c60f13;")  %>
+  <!--%= video_tag("https://d3uqdvietz3th5.cloudfront.net/studios-trailer3202014.webm?03202014",id:"studiosBackgroundLoop",autoplay:"" ,loop:"" ,muted:"" ,style:"height: 100%; width: auto;") %>
+  <!https://d3uqdvietz3th5.cloudfront.net/studios-trailer3202014.webm?03202014 -->
+</div>
 <div class="video-wrapper hide-for-small">
-  <%= video_tag("https://d3uqdvietz3th5.cloudfront.net/studios-trailer3202014.webm?03202014",id:"studiosBackgroundLoop",autoplay:"" ,loop:"" ,muted:"" ,style:"height: 100%; width: auto;") %>
-  <!--https://d3uqdvietz3th5.cloudfront.net/studios-trailer3202014.webm?03202014 -->
+  <%= video_tag("https://d3uqdvietz3th5.cloudfront.net/studios-trailer3202014.webm?03202014",id:"studiosBackgroundLoop",autoplay:"" ,loop:"" ,muted:"" ,style:"height: 100%; width: auto; overflow:hidden;") %>
 </div>
 <p class="lead scroll">o sigue buscando</p>
 </div>
@@ -30,7 +34,7 @@
     <div class="medium-10 large-9 columns medium-centered">
       <p class="lead large text-center">
         <strong>En GALTEC entendemos que cada empresa es única,</strong>
-        por ello nos preocupamos por hacer un análisis de las necesidades de tu empresa.
+        por eso nos preocupamos por hacer un análisis de las necesidades de tu empresa.
       </p>
     </div>
   </div>

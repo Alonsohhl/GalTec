@@ -10925,6 +10925,7 @@ blockquote.terracotta-quote {
 
 .text-overlay {
     background: rgba(0, 0, 0, 0.2);
+  //  background: #c60f13;
     position: absolute;
     height: 100%;
     width: 100%;
