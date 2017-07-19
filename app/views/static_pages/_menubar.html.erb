@@ -3,37 +3,13 @@
 
 <nav>
   <div class="wrapper">
-    <%=content_tag(:a, "GALTEC",href:index_path) %>
-    <%=content_tag(:a, "NOSOTROS",href:about_path) %>
-    <%=content_tag(:a, "SERVICIOS",href:services_path) %>
-    <%=content_tag(:a, "CONTACTO",href:contact_path) %>
+    <%=content_tag(:a, "GALTEC",href:root_path) %>
+    <%=content_tag(:a, "NOSOTROS",href:nosotros_path) %>
+    <%=content_tag(:a, "SERVICIOS",href:servicios_path) %>
+    <%=content_tag(:a, "CONTACTO",href:contacto_path) %>
+    <%=content_tag(:a, "BLOG",href:blog_path) %>
   </div>
 </nav>
     <!--div class="expanded-nav-switch" data-section="switch">
     </div -->
 </div>
-
-<!--ul class="title-area">
-    <li class="name">
-        <a class="sidebar-button show-for-small" id="sidebarButton" href="#sidebar"><img alt="Menu-icon" src="http://zurb.com/assets/offcanvas/menu-icon-e83086c09404412657dd5591074dbb3c.png"/></a>
-        <h1>
-            <a href="/" title="GalTEC">GalTEC</a>
-        </h1>
-    </li>
-</ul>
-<section class="top-bar-section">
-    <ul class="right">
-        <li>
-            <%= link_to "Inicio", index_path %>
-        </li>
-        <li>
-            <%= link_to "Nosotros", about_path  , :class=>("current" if @form_ide=="Nosotros")%>
-        </li>
-        <li>
-            <%= link_to "Servicios", services_path , :class=>("current" if @form_ide=="Servicios")%>
-        </li>
-        <li>
-            <%= link_to "Contactenos", contact_path  , :class=>("current" if @form_ide=="Contacto")%>
-        </li>
-    </ul>
-</section -->
