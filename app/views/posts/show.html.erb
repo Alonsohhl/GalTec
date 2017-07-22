@@ -1,19 +1,146 @@
+<%provide(:title,"Blog-Paginas Web,Plataformas Educativas Moodle, Arequipa-Peru, Marketing Digital, SEO")%>
+<%= render(:partial => "static_pages/menubar") %>
+<div class="interior-header green">
+      <div class="row">
+        <div class="large-12 columns large-centered">
+          <h1 class="title text-center">Blog<strong> GalTec</strong></h1>
+        </div>
+      </div>
+</div>
+
+<div class="row bump-25">
+<div class="large-12 columns">
+<div class="post-box" itemscope="" itemtype="https://schema.org/BlogPosting">
+  <h1 class="light centered-text" itemprop="headline">
+    <%= link_to @post, title:@post.name do
+      @post.title
+     end %>
+  </h1>
+
+<div class="row">
+<div class="large-8 columns large-centered">
+  <!--div class="comment-author-line">
+    <p class="centered-text">
+      <a href="../../about/profile/bryan-zmijewski.html">
+        <span itemprop="author">Bryan</span>
+      </a>
+      wrote this on
+      <time itemprop="datePublished">June 09, 2017</time>
+      in
+      <span itemprop="articleSection about">
+        <a class="post-category" href="../../blog/topic/zurb.html" title="ZURB">
+          <strong>ZURB</strong>
+        </a>,
+        <a class="post-category" href="../../blog/topic/business-and-startups.html" title="Business and Startups">
+          <strong>Business and Startups</strong>
+        </a>
+      </span>.
+      <span itemprop="discussionUrl">
+        <a href="the-amazon-effect-and-how-retailers-can-s.html#social-section">Share this Post</a>
+      </span>
+    </p>
+  </div-->
+<div class="new-post entry-content">
+<p><img src="../../blog/system/images/1927/original/image117b85.png?1496986944" alt="Evil Amazon Logo"></p>
+<p><%=@post.content%></p>
+
+<!--div class="row">
+  <div class="text-center large-12 columns">
+    <div class="row" id="email-subscription-footer-container" style="opacity: 1;">
+      <div class="columns">
+        <div class="email-subscription-footer footer-border-bottom fix-width" id="email-subscription-footer">
+          <p style="display:none;" class="email-thanks-message">Awesome! Check out your inbox!</p>
+          <div class="email-center-wrapper">
+            <p class="email-subscription-description">Get design articles delivered to your inbox!</p>
+            <div class="email-subscription-form-wrapper">
+              <form accept-charset="UTF-8" action="http://zurb.createsend.com/t/y/s/zhiwr/" id="newsSubscribe" method="post" class="email-subscription-form" target="_blank">
+                <div style="display:none;" class="error-message">
+                  <p>Check your email address!</p>
+                </div>
+                <div class="row">
+                  <div class="small-12 columns no-right-padding">
+                    <div class="row collapse">
+                      <input name="utf8" type="hidden" value="✓">
+                      <input name="authenticity_token" type="hidden" value="e5/2JaSIscfw/BjyC/xb+CsSPSmTMf0UUd6OaG/dTZo=">
+                      <div class="large-8 small-7 push-1 columns">
+                        <input class="input-text email-input" id="groupie_email" name="cm-zhiwr-zhiwr" placeholder="getupdates@example.com" size="21" type="text">
+                      </div>
+                      <div class="large-4 small-5 columns">
+                        <button class="orange button postfix" type="submit" id="email-subscription-button">Mantente actualizado</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div-->
+
+
+<div class="row">
+<div class="columns">
+<%=link_to blog_path do%>
+  Ver mas articulos
+<% end %>
+</div>
+</div>
+<!--div id="social-section">
+<div class="social-share-button" data-title="The Amazon Effect and How Retailers Can Slay the Beast" data-img="" data-url="" data-desc="" data-via="">
+<a class="ssb-icon ssb-facebook" data-site="facebook" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow " title="Share to Facebook"></a>
+<a class="ssb-icon ssb-google_plus" data-site="google_plus" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow " title="Share to Google+"></a>
+<a class="ssb-icon ssb-linkedin" data-site="linkedin" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow " title="Share to Linkedin"></a>
+</div>
+</div-->
+
+
+<!--div id="disqus_thread"></div>
+<script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'zurbblog';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+<noscript>Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript" rel="nofollow"&gt;comments powered by Disqus.&lt;/a&gt;</noscript>
+</div>
+</div>
+</div>
+<script>
+  var currentPostId = 1472;
+</script-->
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="large-12 columns">
+
+    <div class="row">
+      <div class="large-8 columns large-centered">
+        <h2 class="light centered-text">
+          <%=link_to "Galtec",blog_path %>
+        </h2>
+        <p class="centered-text topic-description">Descubre todas nuestras publicaciones!</p>
+        <hr>
+      </div>
+    </div>
+  </div>
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @post.name %>
-</p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @post.title %>
-</p>
-
-<p>
-  <strong>Content:</strong>
-  <%= @post.content %>
-</p>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>

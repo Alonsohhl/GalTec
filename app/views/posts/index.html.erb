@@ -10,80 +10,45 @@
         </div>
       </div>
 </div>
+<div class="large-12 columns">
 
-<div class="row">
-<div class="large-8 columns large-centered">
-<h2 class="light centered-text">
-<%=link_to "Galtec",blog_path %>
-</h2>
-<p class="centered-text topic-description">Descubre todas nuestras publicaciones!</p>
-<hr>
-</div>
-</div>
-<% @posts.each do |post| %>
-  <tr>
-    <td><%= post.name %></td>
-    <td><%= post.title %></td>
-    <td><%= post.content %></td>
-    <td><%= link_to 'Show', post %></td>
-    <td><%= link_to 'Edit', edit_post_path(post) %></td>
-    <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-
-<div class="row thumb-row">
-  <% @posts.each do |post| %>
-  <%= link_to 'Show', post %>
-  <a href="../article/1472/the-amazon-effect-and-how-retailers-can-s.html"></a>
-  <div class="large-4 columns thumb-column">
-    <a href="../article/1472/the-amazon-effect-and-how-retailers-can-s.html">
-      <div class="thumb-image-wrapper">
-        <img alt="Image11" src="system/images/1927/original/image117b85.png?1496986944">
+    <div class="row">
+      <div class="large-8 columns large-centered">
+        <h2 class="light centered-text">
+          <%=link_to "Galtec",blog_path %>
+        </h2>
+        <p class="centered-text topic-description">Descubre todas nuestras publicaciones!</p>
+        <hr>
       </div>
-    </a>
-    <h5 class="thumb-category">
-      <%= link_to 'Show', post %>
-    </h5>
-    <h6 class="thumb-title"><%= post.title %></h6>
-  </div>
-  <% end %>
-
-  <a href="../article/1445/every-day-is-a-great-hair-day-for-our-new.html"></a>
-  <div class="large-4 columns thumb-column">
-    <a href="../article/1445/every-day-is-a-great-hair-day-for-our-new.html">
-      <div class="thumb-image-wrapper">
-        <img alt="Nick" src="system/images/1827/original/nick717d.jpg?1472746563">
-      </div>
-    </a>
-    <h5 class="thumb-category">
-      <a href="../article/1445/every-day-is-a-great-hair-day-for-our-new.html"></a>
-      <a class="post-category" href="topic/zurb.html" title="ZURB">
-        <strong>ZURB</strong>
-      </a>
-    </h5>
-    <h6 class="thumb-title">Every Day Is A Great Hair Day for Our New Video Producer</h6>
-  </div>
-  <a href="../article/1443/zurbwired-2016-we-are-live.html"></a>
-  <div class="large-4 columns thumb-column">
-    <a href="../article/1443/zurbwired-2016-we-are-live.html">
-      <div class="thumb-image-wrapper">
-        <img alt="Zurbwired2016 zurbwired" src="system/images/1822/original/zurbwired2016-ZurbWired28a5.jpg?1471891740">
-      </div>
-    </a>
-    <h5 class="thumb-category">
-      <a href="../article/1443/zurbwired-2016-we-are-live.html"></a>
-      <a class="post-category" href="topic/zurb.html" title="ZURB">
-        <strong>ZURB</strong>
-      </a>
-    </h5>
-    <h6 class="thumb-title">#ZURBWired 2016: We Are Live!</h6>
-  </div>
-
-  <div class="row">
-    <div class="columns">
-      <a class="button primary green read-more-topics-button" href="topic/zurb.html">See All Articles</a>
     </div>
-  </div>
+
+    <div class="row thumb-row">
+      <% @posts.each do |post| %>
+        <%= link_to '',post%>
+        <div class="large-4 columns thumb-column">
+          <%= link_to post do %>
+            <div class="thumb-image-wrapper">
+              <%= image_tag("desarrollo.svg",alt: "Logo") %>
+            </div>
+          <% end %>
+          <h5 class="thumb-category">
+            <%= link_to '',post%>
+            <%= link_to post,title: 'Galtec', class:"post-category" do%>
+              <strong>ZURB</strong>
+            <% end %>
+          </h5>
+          <h6 class="thumb-title"><%= post.title %></h6>
+        </div>
+      <% end %>
+      <div class="row">
+        <div class="columns">
+          <a class="button primary green read-more-topics-button" href="topic/zurb.html">See All Articles</a>
+        </div>
+      </div>
+    </div>
+
+</div>
+
 </div>
 
 <p id="notice"><%= notice %></p>
