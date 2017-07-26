@@ -1,8 +1,21 @@
 RailsAdmin.config do |config|
+
+  config.model Post do
+    edit do
+      #field :title
+      field :content , :rich_editor do
+        config({
+          :insert_many => true
+        })
+        end
+      end
+    end
   ### Popular gems integration
   config.authorize_with do
     redirect_to main_app.root_path unless usuario_signed_in? #&& current_usuario.admin ==true
   end
+
+
 # #&& current_usuario.admin ==true #warden.user.admin == true
   ## == Devise ==
   #  config.authenticate_with do
