@@ -1,5 +1,7 @@
 class GaltecController < ApplicationController
   def Inicio
+    #if current_usuario
+
   end
   def Nosotros
   end
