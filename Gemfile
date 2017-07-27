@@ -25,8 +25,9 @@ gem 'devise'
 
 gem 'rails_admin'
 
-gem 'rich', :git => 'https://github.com/kreativgebiet/rich.git'
+gem 'ckeditor'
 gem 'paperclip'
+gem 'trix'
 #editor de texto
 
 # Use jquery as the JavaScript library
@@ -38,7 +39,10 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
-gem 'bcrypt', '~> 3.1.11'
+#gem 'bcrypt', '~> 3.1.11'
+gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
+#gem 'bcrypt-ruby', '3.1.5', :require => 'bcrypt'
+
 #gem 'bcrypt-ruby', '3.1.5', :require => 'bcrypt'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

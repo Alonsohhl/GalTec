@@ -1,19 +1,33 @@
 RailsAdmin.config do |config|
 
-  config.model Post do
-    edit do
-      #field :title
-      field :content , :rich_editor do
-        config({
-          :insert_many => true
-        })
-        end
-      end
-    end
+
   ### Popular gems integration
   config.authorize_with do
     redirect_to main_app.root_path unless usuario_signed_in? #&& current_usuario.admin ==true
   end
+
+
+
+    config.model 'Post' do
+      field :title do
+        label "Titulo"
+      end
+
+      edit do
+        field :content, :ck_editor do
+
+            formatted_value do # used in form views
+              :trix_editor
+            end
+        end
+      end
+
+
+    end
+
+
+
+
 
 
 # #&& current_usuario.admin ==true #warden.user.admin == true
