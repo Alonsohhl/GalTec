@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
 
-  #mount Rich::Engine => '/rich', :as => 'rich'
+
   mount Ckeditor::Engine => '/ckeditor'
-  #mount Rich::Engine => '/rich', :as => 'rich'
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   devise_for :usuarios
   resources :posts
