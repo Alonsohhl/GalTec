@@ -9359,11 +9359,17 @@ ul.life li {
     margin-left: 0
 }
 
-.zurb-footer-bottom ul.home-social li a {
+.zurb-footer-bottom ul.home-social li a.twitter {
     display: block;
     height: 50px;
     width: 50px;
-    background: url(//galtec.org/assets/icons/social-1c71e8186ecefc2eb97b9846b6d34b99.png) no-repeat center 0
+    background: url(twitter.png) no-repeat center 0
+}
+.zurb-footer-bottom ul.home-social li a.facebook {
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: url(facebook.png) no-repeat center 0
 }
 
 .zurb-footer-bottom ul.home-social li a:hover {
@@ -9376,10 +9382,13 @@ ul.life li {
 
 .zurb-footer-bottom ul.home-social li a.twitter {
     background-position: center 0
+    background: url(twitter.png) no-repeat center 0
 }
 
 .zurb-footer-bottom ul.home-social li a.facebook {
-    background-position: center -200px
+    //background-position: center 0
+    background: url(facebook.png) no-repeat center 0
+  //  background-position: center -200px
 }
 
 .zurb-footer-bottom ul.home-social li a.mail {
