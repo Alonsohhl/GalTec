@@ -9381,12 +9381,12 @@ ul.life li {
 }
 
 .zurb-footer-bottom ul.home-social li a.twitter {
-    background-position: center 0
+    background-position: center 0;
     background: url(twitter.png) no-repeat center 0
 }
 
 .zurb-footer-bottom ul.home-social li a.facebook {
-    //background-position: center 0
+    background-position: center 0;
     background: url(facebook.png) no-repeat center 0
   //  background-position: center -200px
 }
