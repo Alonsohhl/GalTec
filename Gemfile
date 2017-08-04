@@ -23,14 +23,13 @@ gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 gem 'devise'
-
-gem 'rails_admin'
-
-gem 'ckeditor'
+gem 'rich'
 gem 'paperclip'
+gem 'rails_admin'
+gem 'ckeditor'
 #gem 'trix'
 #editor de texto
-gem 'rich'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
