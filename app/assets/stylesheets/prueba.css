@@ -9363,8 +9363,8 @@ ul.life li {
     display: block;
     height: 50px;
     width: 50px;
-    background: url(//galtec.org/assets/icons/social-1c71e8186ecefc2eb97b9846b6d34b99.png) no-repeat center 0
 }
+
 
 .zurb-footer-bottom ul.home-social li a:hover {
     opacity: 0.8
@@ -9379,7 +9379,13 @@ ul.life li {
 }
 
 .zurb-footer-bottom ul.home-social li a.facebook {
-    background-position: center -200px
+    background: url('facebook_logo') no-repeat center 0;
+
+}
+
+.zurb-footer-bottom ul.home-social li a.twitter {
+    background: url('twitter_logo') no-repeat center 0;
+
 }
 
 .zurb-footer-bottom ul.home-social li a.mail {
