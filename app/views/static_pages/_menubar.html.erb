@@ -8,13 +8,13 @@
     <%=content_tag(:a, "SERVICIOS",href:servicios_path) %>
     <%=content_tag(:a, "CONTACTO",href:contacto_path) %>
     <%=content_tag(:a, "BLOG",href:blog_path) %>
-    <% if current_usuario %>
+    <% if usuario_signed_in? %>
       <%= link_to "SALIR", destroy_usuario_session_path, method: :DELETE %>
     <% else %>
-      <%= link_to "LOGEARSE", new_usuario_session_path %>
+      <%= link_to "LOGEARSE",rails_admin_path  %>
     <% end %>
   </div>
 </nav>
-    <!--div class="expanded-nav-switch" data-section="switch">
+    <!--div class="expanded-nav-switch" data-section="switch"> rails_admin_path new_usuario_session_path
     </div -->
 </div>

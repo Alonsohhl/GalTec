@@ -1,14 +1,37 @@
 RailsAdmin.config do |config|
   ### Popular gems integration
+
+  config.authenticate_with do# aca se hace la validacio
+   warden.authenticate! scope: :usuario
+  end
+
   config.authorize_with do
     redirect_to main_app.root_path unless usuario_signed_in? #&& current_usuario.admin ==true
   end
+
+
+  config.model Post do
+    field :title do
+        label "Titulo"
+    end
+
+    edit do
+      # For RailsAdmin >= 0.5.0
+      field :content, :ck_editor
+      # For RailsAdmin < 0.5.0
+      # field :description do
+      #   ckeditor true
+      # end
+    end
+  end
+
+
+# config.current_user_method(&:user)
+
+
 # #&& current_usuario.admin ==true #warden.user.admin == true
   ## == Devise ==
-  #  config.authenticate_with do
-#     warden.authenticate! scope: :usuario
-#   end
-#   config.current_user_method(&:usuario)
+
 
   ## == Cancan ==
   # config.authorize_with :cancan
