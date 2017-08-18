@@ -9379,13 +9379,11 @@ ul.life li {
 }
 
 .zurb-footer-bottom ul.home-social li a.facebook {
-    background: url('facebook_logo') no-repeat center 0;
-
+    background: url('facebook_logo') no-repeat center 0
 }
 
 .zurb-footer-bottom ul.home-social li a.twitter {
-    background: url('twitter_logo') no-repeat center 0;
-
+    background: url('twitter_logo') no-repeat center 0
 }
 
 .zurb-footer-bottom ul.home-social li a.mail {

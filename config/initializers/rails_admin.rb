@@ -14,10 +14,12 @@ RailsAdmin.config do |config|
     field :title do
         label "Titulo"
     end
+    field :img  do label "Imagen" end
 
     edit do
       # For RailsAdmin >= 0.5.0
       field :content, :ck_editor
+      field :img
       # For RailsAdmin < 0.5.0
       # field :description do
       #   ckeditor true
