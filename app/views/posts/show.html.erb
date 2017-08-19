@@ -42,7 +42,7 @@
   </div-->
 <div class="new-post entry-content">
 <%= image_tag(cl_image_path(  @post.img), alt: "Imagen del post") %>
-<p><%=@post.content%></p>
+<p><%=@post.content.html_safe%></p>
 
 <!--div class="row">
   <div class="text-center large-12 columns">
