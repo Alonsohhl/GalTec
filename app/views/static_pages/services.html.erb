@@ -1,13 +1,13 @@
 <%provide(:title,"Servicios, Paginas Web, Plataformas Educativas, Marketing Empresarial-SEO")%>
     <%= render(:partial => "static_pages/menubar") %>
 
-      <div class="interior-header green">
-            <div class="row">
-              <div class="large-12 columns large-centered">
-                <h1 class="title text-center"> <strong>Servicios</strong></h1>
-              </div>
-            </div>
+<div class="interior-header green">
+      <div class="row">
+        <div class="large-12 columns large-centered">
+          <h1 class="title text-center"> <strong>Servicios</strong></h1>
+        </div>
       </div>
+</div>
 
 <div class="row">
     <div class="medium-10 large-9 columns large-centered">
@@ -15,6 +15,54 @@
           Desde <strong>páginas web, SEO hasta plataformas educativas.</strong> Te ofrecemos una variedad de productos y servicios que se enfocan en que tu empresa sea <strong>más rentable y aproveche las ventajas del desarrollo tecnológico.</strong></p>
     </div>
 </div>
+
+
+
+    <section class="home">
+
+    <a href="/pages/pyro-pet" class="home__left">
+        <div class="home__content">
+
+            <img class="logo" src="//cdn.shopify.com/s/files/1/1846/9357/t/2/assets/pyro-pet.png?6784287316998485187">
+
+            <div class="cols">
+                <div class="left">
+                <%= image_tag("servicios_negocios.svg" , alt:"negocios en la web") %>
+
+
+                </div>
+                <div class="right">
+                <h1>Impulsa tu negocio con nuestros servicios</h1>
+                </div>
+            </div>
+
+            <button class="btn">Shop PyroPet</button>
+        </div>
+    </a>
+
+    <a href="/collections/message-candles" class="home__right">
+        <div class="home__content">
+
+            <img class="logo" src="//cdn.shopify.com/s/files/1/1846/9357/t/2/assets/candles-logo.png?6784287316998485187">
+
+            <div class="cols">
+                <div class="left">
+                <%= image_tag("negocios_educacion.svg" , alt:"negocios en la web") %>
+                </div>
+                <div class="right">
+                <h1>The candle with the hidden message that you need to know</h1>
+                </div>
+            </div>
+
+            <button class="btn">Shop Message Candles</button>
+        </div>
+    </a>
+
+</section>
+
+
+
+
 <div class="row">
     <div class="medium-12 large-12 columns">
         <hr class="dotted">

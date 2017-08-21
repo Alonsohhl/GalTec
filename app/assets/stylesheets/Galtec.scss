@@ -32,7 +32,7 @@ h1 {
 //  background-color: $color1;
 //  border-radius: 50px;
   display: inline-block;
-  height: 45px;
+//  height: 45px;
 //  margin: 1em 0;
 //  width: 45px;
 }
@@ -197,3 +197,417 @@ h1 {
     max-width: 200px !important;
     margin-top: 30px !important;
 }
+
+.galtec{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 1000000;
+background: #222;
+
+a:hover {
+    outline-width: 0;
+}
+a {
+    font-weight: 500;
+    color: #918a84;
+    text-decoration: none;
+}
+
+}
+
+
+
+.home {
+    position: relative;
+    top: 20;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+  //  height: 974px;
+    z-index: 1000000;
+    background: #222;
+
+    & .cols {
+      width: 100%;
+      position: absolute;
+      left: 25%;
+      transition: margin 0.5s;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      top: 25%;
+
+      & img {
+          margin: 0 auto;
+          display: block;
+          top: 80px;
+          transition: top 0.5s;
+          transition-delay: 0.7s;
+      }
+    }
+
+    & .home__content h1{
+      margin: 0 auto ;
+      text-align: center;
+      padding: 50px;
+      color: #fff;
+      height: 100vh;
+
+      font-size: 30px;
+      font-family: "Proxima Nova", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-rendering: optimizeLegibility;
+    }
+      & .home__content .logo {
+      margin: 0 auto;
+      display: block;
+      top: 80px;
+      left: 50%;
+      margin-left: -70px;
+      transition: top 0.5s;
+      transition-delay: 0.7s;
+      position: absolute;
+  }
+
+
+    & .home__content .btn, .home .home__content .btn--secondary {
+      position: absolute;
+      transition: all 0.5s;
+      font-family: "Proxima Nova", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      bottom: 100px;
+      left: 50%;
+      margin-left: -90px;
+    }
+    & .home__content .cols .right {
+        width: 40%;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.5s;
+        font-size: 15px;
+        color: #fff;
+    }
+
+}
+
+.home .home__right:hover .cols .right {
+    opacity: 1;
+}
+
+
+.home .home__left {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: #008fcb;
+    display: block;
+    background-position: left center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: auto;
+    animation: slide-in-left 1s;
+    animation-fill-mode: forwards;
+    transition: width 0.5s;
+
+    & a:hover {
+        outline-width: 0;
+    }
+
+    a {
+        font-weight: 500;
+        color: #918a84;
+        text-decoration: none;
+    }
+
+    & .home__content {
+        margin: 0 auto;
+        text-align: center;
+        padding: 50px;
+        color: #fff;
+        height: 80vh;
+    }
+    & .home__content{
+      & .logo {
+
+      }
+
+    }
+
+    &:hover{
+      & .cols .right {
+          opacity: 1;
+      }
+      & .cols {
+        margin-left: -45%;}
+      }
+}
+
+.home .home__right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background: #e6001e;
+    background-size: auto 100%;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: width 0.5s;
+    right: 0;
+    animation: slide-in-right 1s;
+    animation-fill-mode: forwards;
+}
+
+
+/*
+
+a, area, button, input, label, select, textarea, [tabindex] {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+}
+*, ::before, ::after {
+    background-repeat: no-repeat;
+    box-sizing: inherit;
+}
+
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+}
+.home .home__left:hover .cols {
+    margin-left: -45%;
+}
+---------------------------------
+.home .home__content .cols {
+    width: 100%;
+    position: absolute;
+    left: 25%;
+    transition: margin 0.5s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    top: 25%;
+}
+-----------------------------
+*/
+/*
+
+.home .home__content .cols .left {
+    width: 50%;
+    position: relative;
+}
+
+.home .home__right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background: #eabcca;
+    background-size: auto 100%;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: width 0.5s;
+    right: 0;
+    animation: slide-in-right 1s;
+    animation-fill-mode: forwards;
+}
+.home .home__right .home__content .logo {
+    margin-left: -80px;
+}
+
+.home .home__right:hover .cols {
+    margin-left: 45%;
+}
+.home .home__left .home__content .cols h1 {
+    top: 0;
+    margin-top: 0;
+margin-bottom: 0;
+//font-family: "misoregular",serif;
+font-family: "Proxima Nova", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+font-style: normal;
+font-weight: 400;
+}
+
+.home .home__content .cols .left {
+    width: 50%;
+    position: relative;
+}
+
+.left {
+    float: left !important;
+}
+
+
+.home .home__content .btn, .home .home__content .btn--secondary {
+    position: absolute;
+    transition: all 0.5s;
+    //font-family: "varela_roundregular",sans-serif;
+    font-family: "Proxima Nova", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    bottom: 100px;
+    left: 50%;
+    margin-left: -90px;
+
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 0 40px;
+    line-height: 47px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 20px;
+    height: 50px;
+    font-size: 13px;
+    display: inline-block;
+    overflow: hidden;
+}
+.btn, .btn--secondary, button {
+
+}
+
+.home .home__content {
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+    height: 100vh;
+}
+
+.home .home__right:hover .cols .right {
+    opacity: 1;
+}
+
+.home .home__left:hover .cols .right {
+    opacity: 1;
+}
+.home .home__content .cols .right {
+    width: 40%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+    font-size: 15px;
+    color: #fff;
+}
+.home .home__content {
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+    height: 100vh;
+
+    font-size: 2em;
+    margin: .67em 0;
+}
+.home .home__left .cols h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+  //  font-family: "misoregular",serif;
+    font-family: "Proxima Nova", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 2em;
+    margin: .67em 0;
+
+    color: #fff;
+    height: 100vh;
+}
+
+
+
+.galtec .galtec__left {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: #112949;
+    display: block;
+    background-position: left center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: auto;
+    animation: slide-in-left 1s;
+    animation-fill-mode: forwards;
+    transition: width 0.5s;
+
+    font-size: 2em;
+    margin: .67em 0;
+}
+.galtec .galtec__content .cols .right{
+width: 40%;
+position: relative;
+display: -webkit-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+align-items: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+opacity: 0;
+transition: opacity 0.5s;
+
+font-size: 2em;
+margin: .67em 0;
+
+}
+
+.galtec .galtec__content {
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+    height: 100vh;
+
+
+}
+
+.galtec .galtec__content .cols {
+    width: 100%;
+    position: absolute;
+    left: 25%;
+    transition: margin 0.5s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    top: 25%;
+}*/
