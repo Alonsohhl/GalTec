@@ -16,7 +16,7 @@ Rails.application.routes.draw do
 
   #get '/services' ,  to:'static_pages#services'
   get '/servicios' ,  to:'static_pages#services'
-
+  get '/servicios_negocios' ,  to:'static_pages#servicios_negocios'
 
   #get '/index' ,  to:'static_pages#index'
   get '/news' ,  to:'static_pages#news'
